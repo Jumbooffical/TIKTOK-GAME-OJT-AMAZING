@@ -14,17 +14,34 @@ public class Farm : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("Farm is starting: " + gameObject.name);
+
+        if (fieldPrefab == null)
+        {
+            Debug.LogError(
+                "FIELD PREFAB IS NULL on: " + gameObject.name
+            );
+            return;
+        }
+
+        Debug.Log("Field Prefab assigned: " + fieldPrefab.name);
+
         plots = new Plant[totalPlots];
         fieldViews = new FieldPlot[totalPlots];
 
         CreateFields();
     }
 
-    void CreateFields()
-    {
+   void CreateFields()
+   {
+        if (fieldPrefab == null)
+        {
+            Debug.LogError("Cannot create fields: fieldPrefab is missing!");
+            return;
+        }
+
         for (int i = 0; i < totalPlots; i++)
         {
-            // Calculate position
             int row = i / columns;
             int column = i % columns;
 
@@ -34,7 +51,6 @@ public class Farm : MonoBehaviour
                 0
             );
 
-            // Create field object
             FieldPlot field = Instantiate(
                 fieldPrefab,
                 position,
@@ -48,7 +64,7 @@ public class Farm : MonoBehaviour
         Debug.Log("Created " + totalPlots + " fields!");
     }
 
-    public void AddPlant(int plotIndex, string plantName)
+    public void AddPlant(int plotIndex, string plantName, int cropIndex)
     {
         if (plotIndex < 0 || plotIndex >= plots.Length)
             return;
@@ -61,8 +77,9 @@ public class Farm : MonoBehaviour
 
         plots[plotIndex] = new Plant(plantName);
 
-        fieldViews[plotIndex].PlantCarrot();
-
+        // Display the selected crop
+        fieldViews[plotIndex].PlantCrop(cropIndex);
+    
         Debug.Log("Planted " + plantName + " in plot " + plotIndex);
     }
 
