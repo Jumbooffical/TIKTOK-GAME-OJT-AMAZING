@@ -1,0 +1,411 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1794317465651127, "dur":18246, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317465669447, "dur":245, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317465669762, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1794317465669900, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1794317465669952, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670144, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670197, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670428, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670587, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670750, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670842, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465670949, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465671104, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465671166, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465671615, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465671882, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465672356, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465672553, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465672793, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465672974, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673115, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ManagedKernelModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673209, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MathematicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673263, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673368, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673420, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673534, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsCore2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673601, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673738, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465673961, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465674101, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465674564, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465674764, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465674829, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465674918, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465675119, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465675213, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465675443, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465675508, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317465676048, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1794317465676115, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1794317465676211, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1794317465669715, "dur":7111, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317465676828, "dur":120815, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317465797823, "dur":385, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1794317465669509, "dur":7325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1794317465677037, "dur":263, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"../../../../../home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1794317465677301, "dur":57, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1794317465677359, "dur":367, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge" }}
+,{ "pid":12345, "tid":1, "ts":1794317465677744, "dur":242, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1794317465677986, "dur":1274, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1794317465679261, "dur":1284, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/external/icu/icu/icu4c/source/common" }}
+,{ "pid":12345, "tid":1, "ts":1794317465680545, "dur":1643, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/external/icu/icu/icu4c/source/i18n" }}
+,{ "pid":12345, "tid":1, "ts":1794317465682219, "dur":5175, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1794317465676838, "dur":10611, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1794317465687450, "dur":2135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1794317465689585, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"UnityLinker /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1794317465691158, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465691212, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465691476, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Collections.Immutable.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465691678, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465691904, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465692019, "dur":874, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465692940, "dur":3601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465696544, "dur":447, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465697028, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465697303, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465697562, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Reflection.Metadata.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465698046, "dur":2649, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465700696, "dur":2394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465703095, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465703157, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465703300, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.BurstModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465703624, "dur":1619, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465705291, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465705568, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465705676, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465705791, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465706058, "dur":2623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465708758, "dur":5995, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465714762, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/Burst/Client/bcl/bcl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317465691154, "dur":23697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1794317465715047, "dur":82474, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1794317465669543, "dur":7301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465676848, "dur":648, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465677496, "dur":675, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465678172, "dur":349, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465678521, "dur":9028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465687623, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1794317465687885, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game.x86_64" }}
+,{ "pid":12345, "tid":2, "ts":1794317465688100, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1794317465688296, "dur":2861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465691161, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465691160, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465691697, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465692105, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465692104, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465692364, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465692181, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465693800, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465693798, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465693909, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465696276, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TetgenModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465696571, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465696567, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465696675, "dur":581, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465697530, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465697797, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465698013, "dur":7363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465705379, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465705378, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465705469, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465705723, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465705896, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465706501, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465708602, "dur":1559, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317465708283, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317465711871, "dur":85706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465669567, "dur":7288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465676857, "dur":887, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465677745, "dur":550, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465678319, "dur":9173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465687521, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"WriteFile Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":3, "ts":1794317465687599, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1794317465688442, "dur":2771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465691218, "dur":1845, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465691217, "dur":1847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465693117, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465696446, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465696691, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.2D.Welcome.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465696836, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465696835, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465696956, "dur":236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465697322, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465697193, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465697403, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465698810, "dur":111, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465698925, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465699109, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465699107, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465699181, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465699422, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465699587, "dur":594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.MathematicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465699587, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MathematicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465701015, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MathematicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465702937, "dur":2664, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465702936, "dur":2667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465707657, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465705619, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465707791, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465707789, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465708043, "dur":144, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317465708193, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465708436, "dur":203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465708658, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465709054, "dur":11722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Reflection.Metadata.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317465720784, "dur":76816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465669593, "dur":7269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465676866, "dur":689, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465677556, "dur":364, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465677921, "dur":531, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465678452, "dur":9042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465687521, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1794317465687572, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1794317465687736, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1794317465687869, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/UnityPlayer.so" }}
+,{ "pid":12345, "tid":4, "ts":1794317465688103, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1794317465688287, "dur":2930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317465691540, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465691836, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465692015, "dur":899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465692014, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465692945, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465693864, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465694039, "dur":14177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Collections.Immutable.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465708219, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465708218, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465708290, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465709270, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465710500, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.BurstModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465711549, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317465711818, "dur":85774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465669619, "dur":7251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465676874, "dur":489, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465677364, "dur":321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465677686, "dur":365, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465678052, "dur":454, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465678507, "dur":9001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465687539, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1794317465687621, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1794317465687840, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":5, "ts":1794317465687965, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-cairo.so" }}
+,{ "pid":12345, "tid":5, "ts":1794317465688036, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-cairo.so" }}
+,{ "pid":12345, "tid":5, "ts":1794317465688195, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1794317465688320, "dur":2942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465691271, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465691264, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465691539, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465691827, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465691826, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465691958, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465692445, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465692608, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465692608, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465692689, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465692939, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465693142, "dur":3142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465693141, "dur":3145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465696301, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465699162, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465699160, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465699376, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465699691, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465700673, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465700890, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465700972, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465701229, "dur":295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465701532, "dur":449, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317465701986, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465702190, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465702256, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465702465, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465703097, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465703326, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465703593, "dur":5287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465703591, "dur":5291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465708900, "dur":5982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317465714891, "dur":82754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465669645, "dur":7235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465676885, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465677421, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465677830, "dur":421, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465678252, "dur":252, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465678504, "dur":8998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465687539, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":6, "ts":1794317465687714, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1794317465687786, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1794317465687937, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":6, "ts":1794317465688059, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1794317465688143, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1794317465688281, "dur":2874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465691159, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465691157, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465691909, "dur":301, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465691610, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692220, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692218, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692327, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692501, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692500, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692708, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692978, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465692977, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465693082, "dur":706, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465693792, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465693996, "dur":2179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465693995, "dur":2184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465696529, "dur":696, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465696219, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465697235, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465697368, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465698691, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465698690, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465698824, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700029, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700374, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700227, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700537, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700759, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700924, "dur":783, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.U2DRuntimeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465700923, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.U2DRuntimeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465701724, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.U2DRuntimeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465704566, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465704947, "dur":5205, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317465704809, "dur":5365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465710205, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465710528, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465710788, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317465711966, "dur":85647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465669670, "dur":7290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465676963, "dur":489, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465677453, "dur":540, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465677993, "dur":531, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465678525, "dur":8990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465687556, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1794317465688007, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1794317465688141, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1794317465688328, "dur":2831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465691180, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465691162, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465691542, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465692289, "dur":799, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465691920, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465693103, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465693102, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465693768, "dur":392, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465693409, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465696144, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465694168, "dur":2165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465696392, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465696733, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465697150, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465697149, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465697206, "dur":259, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465697470, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465697697, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465697963, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465698123, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465698121, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465698223, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465698418, "dur":439, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsCore2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465698416, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsCore2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465698882, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsCore2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465699456, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465699455, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465699596, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465699870, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465700334, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465700080, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465700431, "dur":507, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465700430, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465701527, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465700977, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465701678, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465701676, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465701916, "dur":662, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465701761, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465702648, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465702835, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465702834, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465702970, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465703245, "dur":842, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465704093, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465705975, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465704407, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465706087, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465706302, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465706934, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465706683, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465707017, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465707236, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465713968, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317465707505, "dur":6555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317465714065, "dur":83530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465669699, "dur":7268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465676969, "dur":708, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465677677, "dur":370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465678048, "dur":316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465678364, "dur":9187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465687560, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1794317465687663, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1794317465687845, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1794317465688020, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1794317465688149, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1794317465688212, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1794317465688271, "dur":2906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465691179, "dur":1004, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465691178, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465692188, "dur":263, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465692460, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465693227, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465693224, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465693778, "dur":340, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465693458, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465696146, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465694129, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465696230, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465696602, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465696601, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465696752, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465697573, "dur":498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465698092, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465698274, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465698340, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465698495, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465698494, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465698664, "dur":1608, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465700499, "dur":524, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465700276, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465701032, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465701031, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465701097, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465701558, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465701556, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465701771, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465702342, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TimelineFoundationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465702341, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TimelineFoundationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465702497, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TimelineFoundationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465703573, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465703426, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465703682, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465703882, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465704073, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465704071, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465704175, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465704465, "dur":116, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465704796, "dur":237, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465704585, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705043, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705041, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705111, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705350, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705551, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ManagedKernelModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705708, "dur":2395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465705708, "dur":2397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465708110, "dur":970, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465713046, "dur":153, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317465709083, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317465713233, "dur":84383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317465799281, "dur":535, "ph":"X", "name": "ProfilerWriteOutput" }
+,

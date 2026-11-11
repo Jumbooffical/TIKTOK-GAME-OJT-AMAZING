@@ -1,0 +1,246 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1794317466390255, "dur":18958, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317466409220, "dur":76, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317466409334, "dur":388, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317466409761, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1794317466409858, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1794317466409958, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410051, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410130, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410186, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410265, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410362, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410465, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410549, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410629, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410704, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410798, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteFile Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410923, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466410999, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411078, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411195, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Collections.Immutable.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411296, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411374, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411512, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411586, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411647, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411751, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411880, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466411939, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412016, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412091, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Reflection.Metadata.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412176, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412298, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412506, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412628, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412868, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466412977, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413038, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413100, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413180, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413306, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.BurstModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413413, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413498, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413606, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413669, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413748, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466413811, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414110, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414228, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414336, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414563, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414688, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ManagedKernelModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414751, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414817, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MathematicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466414878, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415131, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsCore2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415197, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415272, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415381, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415470, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415552, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415614, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415781, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415854, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466415969, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416031, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416093, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416166, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TetgenModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416243, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416304, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416365, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416439, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466416764, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417080, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417146, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417221, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417591, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417653, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417810, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1794317466417983, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":0, "ts":1794317466418144, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1794317466418609, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1794317466418671, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1794317466418733, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1794317466419093, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":0, "ts":1794317466409759, "dur":9624, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317466419386, "dur":18767, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317466438300, "dur":403, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1794317466409410, "dur":9986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1794317466419594, "dur":263, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"../../../../../home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1794317466419858, "dur":79, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1794317466419938, "dur":371, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge" }}
+,{ "pid":12345, "tid":1, "ts":1794317466420327, "dur":249, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1794317466420576, "dur":1477, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1794317466422053, "dur":1791, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/external/icu/icu/icu4c/source/common" }}
+,{ "pid":12345, "tid":1, "ts":1794317466423845, "dur":2142, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/external/icu/icu/icu4c/source/i18n" }}
+,{ "pid":12345, "tid":1, "ts":1794317466426008, "dur":6688, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1794317466432714, "dur":87, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Linux642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1794317466419399, "dur":13432, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1794317466432833, "dur":2272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1794317466435105, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"UnityLinker /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1794317466436883, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466436973, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437067, "dur":81, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437155, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437261, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437341, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437520, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437623, "dur":165, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437801, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1794317466437865, "dur":220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466409506, "dur":9905, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466419415, "dur":493, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466419909, "dur":503, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466420413, "dur":373, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466420787, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466421069, "dur":11873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466433005, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":2, "ts":1794317466433140, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1794317466433279, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1794317466433460, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1794317466433612, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1794317466433790, "dur":3051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1794317466436852, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466436928, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466437014, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466437176, "dur":118, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466437299, "dur":91, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MathematicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466437412, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.U2DRuntimeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466437655, "dur":231, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1794317466437887, "dur":201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466409513, "dur":9911, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466419427, "dur":754, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466420181, "dur":473, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466420654, "dur":341, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466420996, "dur":11853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466432855, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteFile Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":3, "ts":1794317466432963, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1794317466433845, "dur":3002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1794317466436932, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317466437058, "dur":135, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317466437201, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317466437318, "dur":145, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317466437552, "dur":93, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317466437754, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1794317466437856, "dur":319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466409613, "dur":9821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466419439, "dur":508, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466419948, "dur":462, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466420411, "dur":634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466421046, "dur":11828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466432908, "dur":107, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433016, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433217, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433353, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433454, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433544, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433692, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1794317466433799, "dur":3044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1794317466436896, "dur":80, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317466436992, "dur":187, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317466437222, "dur":195, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317466437496, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317466437629, "dur":132, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1794317466437827, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466409615, "dur":9829, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466419447, "dur":400, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466419848, "dur":605, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466420454, "dur":301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466420756, "dur":274, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466421030, "dur":11882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466432936, "dur":98, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1794317466433061, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1794317466433174, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1794317466433310, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":5, "ts":1794317466433444, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":5, "ts":1794317466433541, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1794317466433811, "dur":3035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1794317466436944, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437003, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437092, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437251, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437351, "dur":96, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437540, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437644, "dur":137, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437789, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Reflection.Metadata.dll" }}
+,{ "pid":12345, "tid":5, "ts":1794317466437847, "dur":284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466409701, "dur":9753, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466419458, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466419994, "dur":734, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466420728, "dur":328, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466421056, "dur":11814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466432953, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1794317466433144, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1794317466433265, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game.x86_64" }}
+,{ "pid":12345, "tid":6, "ts":1794317466433411, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1794317466433656, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1794317466433724, "dur":3114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1794317466436897, "dur":333, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317466437250, "dur":156, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317466437506, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317466437611, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317466437776, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1794317466437878, "dur":218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466409715, "dur":9745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466419463, "dur":699, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466420162, "dur":367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466420530, "dur":559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466421090, "dur":11787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433004, "dur":99, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433129, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433194, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433344, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/libdecor-cairo.so" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433516, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433604, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433676, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1794317466433760, "dur":3096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1794317466436897, "dur":174, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437078, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437173, "dur":112, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437290, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437406, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437507, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437605, "dur":167, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437781, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1794317466437835, "dur":256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317466409790, "dur":9678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317466419470, "dur":554, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317466420024, "dur":860, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317466420884, "dur":12010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317466432983, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1794317466433068, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1794317466433385, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1794317466433480, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1794317466433561, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1794317466433733, "dur":3130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437024, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437127, "dur":81, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437215, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437280, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437361, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437504, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437615, "dur":181, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /media/veracrypt2/mydata/Projects/build/game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1794317466437837, "dur":256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1794317466439780, "dur":368, "ph":"X", "name": "ProfilerWriteOutput" }
+,

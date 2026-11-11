@@ -1,0 +1,34 @@
+{
+    "Version": 2,
+    "BuildContentOptions": [
+        "None"
+    ],
+    "BuildManifestHash": "00000000000000000000000000000000",
+    "BuildName": "TIKTOK-GAME-OJT-AMAZING",
+    "BuildOptions": [
+        "ForceOptimizeScriptCompilation",
+        "Il2CPP",
+        "CompressTextures",
+        "StripDebugSymbols",
+        "ShaderLivelinkSupport",
+        "AutoRunPlayer",
+        "StrictMode"
+    ],
+    "BuildProfilePath": "",
+    "BuildResult": 1,
+    "BuildResultName": "Succeeded",
+    "BuildSessionGUID": "b5a9f1cfc9177da1081443882bdcfbd6",
+    "BuildStartedAt": "2026-11-10T13:30:37.7204670Z",
+    "BuildType": 1,
+    "BuildTypeName": "Player",
+    "ContentSourceBuildSessionGUID": "00000000000000000000000000000000",
+    "OutputPath": "/media/veracrypt2/mydata/Projects/build/game.x86_64",
+    "Platform": 24,
+    "PlatformName": "StandaloneLinux64",
+    "Subtarget": 2,
+    "SubtargetName": "Player",
+    "TotalErrors": 0,
+    "TotalSizeBytes": 94186825,
+    "TotalTimeMs": 29137,
+    "TotalWarnings": 4
+}

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Build Report - Content Size Statistics
+Serialized File count                      3
+Resource file count                        2
+Object count                             450
+Serialized Files                      72.1 kb	   2.3%
+Serialized Files Headers              13.9 kb	   0.4%
+Resource data (Texture,Audio...)       3.0 mb	  97.7%
+Total build size                       3.1 mb
+
+Largest Types:
+     3.0 mb	  97.8% Texture2D
+    47.3 kb	   1.5% MonoScript
+
+Largest Assets:
+   353.6 kb	  11.2% Assets/Sprite/emptyfield.jpeg
+-------------------------------------------------------------------------------

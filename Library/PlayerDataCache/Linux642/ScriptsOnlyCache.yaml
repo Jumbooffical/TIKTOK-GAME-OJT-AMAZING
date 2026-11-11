@@ -1,0 +1,235 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Farm
+    - FarmTester
+    - FieldPlot
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.Editor.RemoteInputPlayerConnectionEditor
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemStateManager
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+  serializedClasses:
+    Assembly-CSharp:
+    - Plant
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4bab1ea4b1e4b795182ffd2cdbbdc71c, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: f1bd2f9c58e3d7fc8b2679ccc09065bf, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 39331eee183817ab0a4e1e7c975f9407, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 3074afe1b03a0fb081e176a4ef1b9d09
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 65428ae27efbd847663b395d609493c1
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: TouchSimulationEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6cf63e9dc888f92a3672d2e4db631c8e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a8de0d34a8929dc27a7355ab86ece03b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FieldPlot
+  - hash:
+      serializedVersion: 2
+      Hash: 81c1c7afa493aa4781367e1eb8278c1b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: e1770e07eeb3f03d25fc5a6411e2f31c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 15043b1784968d13d2a5579240364615
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FarmTester
+  - hash:
+      serializedVersion: 2
+      Hash: a12bb248c6e4cd9291c74f2a13425695
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemStateManager
+  - hash:
+      serializedVersion: 2
+      Hash: 93efcd03160697a9a4a6284913ffcb67
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 4c368a726be53e3f9d99ff013b5eba88
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: f315a35826003982409d028bb560d7d2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Farm
+  - hash:
+      serializedVersion: 2
+      Hash: e63fe08659e7e4647a51098c666f8845
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: bc75926bfd3609757f7bf33ff766f026
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 80797e6ff9fd468451bb84ad6bb4a655
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: RemoteInputPlayerConnectionEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3653acb19b51410b089c88a6bde7ff64
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: createinventory
+  - hash:
+      serializedVersion: 2
+      Hash: f48d488640cea12888eb2f685e2871ad
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed5daadd237bb82e132790f75ffccaf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9b7d0decbe2d552ec5554d5c99d3fc19
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionsEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 88b9e388f6ce6f2d4b3350234bb96280
+    assemblyName: Unity.2D.Welcome
+    namespaceName: Unity.U2D.Welcome
+    className: Welcome2DScript
+  - hash:
+      serializedVersion: 2
+      Hash: 407f1c3e667caa5218801e7bde7c8a5d
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0b8492533acd7cd51d8a51d3d5db1db3
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: add796d19e2ba843aa506bceab05e9bf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 86344100c716167fb86137c127ca9eee
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 90b41c926d9d6c40d6afe7391a319987
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: b35ebf7f938ab56f6fb86fb46b60675e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 90cf308600fb4aeb677786843453ec55
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: aed304ad9d7678e460fb769d648209c5
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: abcfeaf32771a96366d91b608e7c275d
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  platform: 24
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  nativeClasses: 3000000082000000730000003100000000000000060000001b0000001c000000150000001200000081000000d5000000090000000d000000c0a219270b000000370000007e0000000f1baa530a05df37130000007bce860a4e0000001e0000006200000005000000930000002c0100005e000000740000002f0000008d000000c4000000010000000400000019000000140000007200000002000000d400000068000000510000009d0000000800000003000000b4000000i
+  playerPath: /media/veracrypt2/mydata/Projects/build/game.x86_64
