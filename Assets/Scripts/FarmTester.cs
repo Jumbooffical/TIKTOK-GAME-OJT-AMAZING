@@ -49,12 +49,19 @@ public class FarmTester : MonoBehaviour
                 return;
             }
 
+            // Play planting sound
+            SfxManager.Instance.PlayPlanting();
+
             PlantInNextEmptyPlot();
         }
 
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
             Debug.Log("R PRESSED!");
+
+            // Play planting sound
+            SfxManager.Instance.PlayHarvestAllPlants();
+
             farm.RemoveAllPlants();
         }
     }
