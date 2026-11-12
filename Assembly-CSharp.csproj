@@ -53,12 +53,13 @@
     <Analyzer Include="/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ProgressBar.cs" />
+    <Compile Include="Assets/Scripts/FarmTester.cs" />
+    <Compile Include="Assets/createslot.cs" />
     <Compile Include="Assets/Scripts/FieldPlot.cs" />
     <Compile Include="Assets/Scripts/Plant.cs" />
-    <Compile Include="Assets/Scripts/FarmTester.cs" />
     <Compile Include="Assets/Scripts/Farm.cs" />
     <Compile Include="Assets/Scripts/SfxManager.cs" />
-    <Compile Include="Assets/createslot.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

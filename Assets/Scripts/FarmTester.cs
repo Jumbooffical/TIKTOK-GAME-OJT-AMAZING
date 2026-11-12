@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class FarmTester : MonoBehaviour
 {
+    [SerializeField] private ProgressBar progressBar;
+
     public Farm farm;
 
     // Common crops
@@ -61,6 +63,7 @@ public class FarmTester : MonoBehaviour
 
             // Play planting sound
             SfxManager.Instance.PlayHarvestAllPlants();
+            progressBar.SetStep(3);
 
             farm.RemoveAllPlants();
         }

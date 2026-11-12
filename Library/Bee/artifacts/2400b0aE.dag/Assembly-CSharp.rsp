@@ -442,6 +442,7 @@
 "Assets/Scripts/FarmTester.cs"
 "Assets/Scripts/FieldPlot.cs"
 "Assets/Scripts/Plant.cs"
+"Assets/Scripts/ProgressBar.cs"
 "Assets/Scripts/SfxManager.cs"
 "Assets/createslot.cs"
 -langversion:9.0
