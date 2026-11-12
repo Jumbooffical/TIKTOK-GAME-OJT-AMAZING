@@ -1747,6 +1747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1bd2f9c58e3d7fc8b2679ccc09065bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FarmTester
+  progressBar: {fileID: 1085700519}
   farm: {fileID: 1189868147}
 --- !u!114 &2127069432
 MonoBehaviour:

@@ -1665,3 +1665,10 @@ Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
 Vulkan PSO: data extracted [new size=29248, old size=29248, incomplete=0]
 Vulkan PSO: Pipeline cache has not changed skipping save handle[9ac3f220]
 Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
+
+SDL leaked 2 allocations
+Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
+Vulkan PSO: data extracted [new size=29248, old size=29248, incomplete=0]
+Vulkan PSO: Pipeline cache has not changed skipping save handle[765d27f0]
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
