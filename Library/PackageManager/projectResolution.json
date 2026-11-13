@@ -48,6 +48,45 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.sdk.linux-arm64@1.1.1": {
+      "name": "com.unity.sdk.linux-arm64",
+      "displayName": "Sysroot Linux Arm64",
+      "resolvedPath": "/media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.sdk.linux-arm64@5043731cb64f",
+      "fingerprint": "5043731cb64f19401f7f71227310f57c5bb2d9da",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.sdk.linux-x86_64@1.1.1": {
+      "name": "com.unity.sdk.linux-x86_64",
+      "displayName": "Sysroot Linux x64",
+      "resolvedPath": "/media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.sdk.linux-x86_64@920bc08129cd",
+      "fingerprint": "920bc08129cd8fdbb7047417919cef376ed65070",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.toolchain.linux-x86_64-linux@1.1.1": {
+      "name": "com.unity.toolchain.linux-x86_64-linux",
+      "displayName": "Toolchain Linux x64 Host for Linux Targets",
+      "resolvedPath": "/media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.toolchain.linux-x86_64-linux@95ffda8fe8d9",
+      "fingerprint": "95ffda8fe8d9f799b4e7faad5fc7ea9e9680aacb",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ugui@2.6.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "/media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.ugui@b0f69f485d8c",
+      "fingerprint": "b0f69f485d8c8a7ce87ce71240cb0560cbd79b1d",
+      "version": "2.6.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
@@ -350,6 +389,16 @@
       "resolvedPath": "/media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.sysroot.base@1.1.1": {
+      "name": "com.unity.sysroot.base",
+      "displayName": "Sysroot Base",
+      "resolvedPath": "/media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.sysroot.base@0a249da1e1ab",
+      "fingerprint": "0a249da1e1ab453a94cc00ecfb7c87e38d2c154a",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.1.1",
+      "source": "registry",
       "testable": false
     },
     "com.unity.test-framework@1.8.0": {

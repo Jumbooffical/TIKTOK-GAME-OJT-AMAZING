@@ -5,6 +5,8 @@ public class FarmTester : MonoBehaviour
 {
     public Farm farm;
 
+    public ProgressBar progressBar;
+
     [Header("Crop List (15 Crops Total)")]
     public string[] allCrops =
     {
@@ -65,6 +67,8 @@ public class FarmTester : MonoBehaviour
 
             // Play planting sound
             SfxManager.Instance.PlayHarvestAllPlants();
+
+            progressBar.SetStep(3);
 
             farm.RemoveAllPlants();
         }

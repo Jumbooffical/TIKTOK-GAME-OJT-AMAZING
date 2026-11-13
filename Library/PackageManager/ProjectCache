@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639300866659304185
-    m_Hash: 1514823980
+      ticks: 639301610048002950
+    m_Hash: 4114287413
   m_LockFileStatus:
     m_FilePath: /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639300866659307802
-    m_Hash: 1053535381
+      ticks: 639301610048224405
+    m_Hash: 3735144934
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -559,6 +559,430 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.20.1
     minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.sdk.linux-arm64@1.1.1
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 1.1.1
+  source: 1
+  resolvedPath: /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.sdk.linux-arm64@5043731cb64f
+  assetPath: Packages/com.unity.sdk.linux-arm64
+  name: com.unity.sdk.linux-arm64
+  displayName: Sysroot Linux Arm64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "This package contains the sysroot used to build and run Unity players on Arm64 Linux systems. It includes the system libraries and headers required by Unity\u2019s runtime environment to ensure compatibility with common Linux distributions during both compilation and execution."
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    recommended: 1.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot.base
+    version: 1.1.1
+  resolvedDependencies:
+  - name: com.unity.sysroot.base
+    version: 1.1.1
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639294968233200000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sdk.linux-arm64@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 9c70b3c5d02ba7fb2000bffd29ea721c94c74422
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Updated the com.unity.sysroot.base dependency to 1.1.1, which fixes payload extraction on CoreCLR Editors"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 5043731cb64f19401f7f71227310f57c5bb2d9da
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 6000.3.0b8
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.sdk.linux-x86_64@1.1.1
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 1.1.1
+  source: 1
+  resolvedPath: /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.sdk.linux-x86_64@920bc08129cd
+  assetPath: Packages/com.unity.sdk.linux-x86_64
+  name: com.unity.sdk.linux-x86_64
+  displayName: Sysroot Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "This package contains the sysroot used to build and run Unity players on 64-bit Linux systems. It includes the system libraries and headers required by Unity\u2019s runtime environment to ensure compatibility with common Linux distributions during both compilation and execution."
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    recommended: 1.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot.base
+    version: 1.1.1
+  resolvedDependencies:
+  - name: com.unity.sysroot.base
+    version: 1.1.1
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639294968127930000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sdk.linux-x86_64@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 9c70b3c5d02ba7fb2000bffd29ea721c94c74422
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Updated the com.unity.sysroot.base dependency to 1.1.1, which fixes payload extraction on CoreCLR Editors"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 920bc08129cd8fdbb7047417919cef376ed65070
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 6000.3.0b8
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.toolchain.linux-x86_64-linux@1.1.1
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 1.1.1
+  source: 1
+  resolvedPath: /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.toolchain.linux-x86_64-linux@95ffda8fe8d9
+  assetPath: Packages/com.unity.toolchain.linux-x86_64-linux
+  name: com.unity.toolchain.linux-x86_64-linux
+  displayName: Toolchain Linux x64 Host for Linux Targets
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This package provides a cross-compilation toolchain for building Unity players targeting Linux and Embedded Linux platforms. It is designed to run on x86_64 Linux hosts and supports both x86_64 and Arm64 player targets
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    recommended: 1.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot.base
+    version: 1.1.1
+  resolvedDependencies:
+  - name: com.unity.sysroot.base
+    version: 1.1.1
+  keywords:
+  - toolchain
+  - linux
+  - cross-compilation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639294968017100000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.linux-x86_64-linux@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 9c70b3c5d02ba7fb2000bffd29ea721c94c74422
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Updated the com.unity.sysroot.base dependency to 1.1.1, which fixes payload extraction on CoreCLR Editors"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 95ffda8fe8d9f799b4e7faad5fc7ea9e9680aacb
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 6000.3.0b8
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ugui@2.6.0
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 2.6.0
+  source: 2
+  resolvedPath: /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.ugui@b0f69f485d8c
+  assetPath: Packages/com.unity.ugui
+  name: com.unity.ugui
+  displayName: uGUI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "uGUI (Unity UI) is a set of tools for developing user interfaces for games and applications. It is a GameObject-based UI system that uses Components and the Game View to arrange, position, and style user interfaces. \u200B You cannot use Unity UI to create or change user interfaces in the Unity Editor."
+  errors: []
+  versions:
+    all:
+    - 2.6.0
+    compatible:
+    - 2.6.0
+    recommended: 2.6.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - UI
+  - ugui
+  - Unity UI
+  - Canvas
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - TMP
+  - SDF
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 2.6.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: b0f69f485d8c8a7ce87ce71240cb0560cbd79b1d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.6.0
+    minimumUnityVersion: 
   compliance:
     status: 0
     violation:
@@ -4161,6 +4585,103 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.sysroot.base@1.1.1
+  testable: 0
+  isDirectDependency: 0
+  isInstalled: 1
+  version: 1.1.1
+  source: 1
+  resolvedPath: /media/veracrypt2/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/PackageCache/com.unity.sysroot.base@0a249da1e1ab
+  assetPath: Packages/com.unity.sysroot.base
+  name: com.unity.sysroot.base
+  displayName: Sysroot Base
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This is the base sysroot package required by all sysroot and toolchain packages
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    recommended: 1.1.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639294966659990000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.base@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 9c70b3c5d02ba7fb2000bffd29ea721c94c74422
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed payload extraction failing on CoreCLR Editors: shell commands are now passed as a single argument and the payload path is resolved from the package''s resolved location"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+      artifactType: 0
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 0a249da1e1ab453a94cc00ecfb7c87e38d2c154a
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 6000.3.0b8
   compliance:
     status: 0
     violation:

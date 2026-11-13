@@ -141,6 +141,7 @@
 -define:UNITY_INPUT_SYSTEM_ENABLE_XR
 -define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
 -define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
+-define:UNITY_INPUT_SYSTEM_ENABLE_UI
 -define:UNITY_INPUT_SYSTEM_PLATFORM_SCROLL_DELTA
 -define:UNITY_INPUT_SYSTEM_INPUT_MODULE_SCROLL_DELTA
 -define:UNITY_INPUT_SYSTEM_INPUT_MODULE_NAVIGATION_DEVICE_TYPE
@@ -440,6 +441,8 @@
 -r:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
 -r:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@508b95ff9afe/net472/unity-custom/nunit.framework.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll"
 -analyzer:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll"
 -analyzer:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/BuildPipeline/Unity.Analyzers/Unity.Analyzers.Common.dll"
