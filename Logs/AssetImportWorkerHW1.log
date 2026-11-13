@@ -1676,3 +1676,51 @@ Memory consumption went from 164.2 MB to 163.8 MB.
 Total: 9.307908 ms (FindLiveObjects: 0.402275 ms CreateObjectMapping: 0.157689 ms MarkObjects: 8.062332 ms  DeleteObjects: 0.535566 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.943 seconds
+Domain Reload Profiling: 1818ms
+	BeginReloadAssembly (325ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (370ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (945ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1390 unused Assets / (0.5 MB). Loaded Objects now: 2256.
+Memory consumption went from 164.6 MB to 164.1 MB.
+Total: 13.246842 ms (FindLiveObjects: 0.646210 ms CreateObjectMapping: 0.428441 ms MarkObjects: 10.846990 ms  DeleteObjects: 0.812333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (54.0 KB). Loaded Objects now: 2256.
+Memory consumption went from 164.1 MB to 164.0 MB.
+Total: 11.743053 ms (FindLiveObjects: 0.371178 ms CreateObjectMapping: 0.064198 ms MarkObjects: 10.988836 ms  DeleteObjects: 0.147538 ms)
+
+Prepare: number of updated asset objects reloaded= 0

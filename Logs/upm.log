@@ -251,3 +251,9 @@ params: {}
 [2026-11-13T10:47:18.789Z][INFO] config:project:get-registries <-- Request received
 params: {}
 [2026-11-13T10:47:18.796Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-11-13T10:57:21.342Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-13T10:57:21.626Z][INFO] project:list-packages --> 200 (284 ms)
+[2026-11-13T10:57:21.747Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-13T10:57:21.754Z][INFO] config:project:get-registries --> 200 (7 ms)

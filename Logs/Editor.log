@@ -7985,3 +7985,241 @@ Total: 47.358907 ms (FindLiveObjects: 0.621412 ms CreateObjectMapping: 0.092887 
 
 GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
 Asset Pipeline Refresh (id=4300803dcda1c870e9f042a23654ee4a): Total: 0.068 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2d8ca940f011fca008f9ac18b52f1d54): Total: 0.189 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  2.651 seconds
+Domain Reload Profiling: 3858ms
+	BeginReloadAssembly (784ms)
+		DisableScriptedObjects (150ms)
+		CreateAndSetChildDomain (275ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (235ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2653ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (1030ms)
+
+Asset Pipeline Refresh (id=4ee56c2156dceb74989c61b227bb7b76): Total: 4.376 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2835 ms
+		Asset DB Callback time: managed=43 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1493 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=411, non-scripts=423
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.770ms
+	ApplyChangesToAssetFolders: 0.493ms
+	Collect global state as custom dependencies: 0.500ms
+	ProcessAssetsWithTransientArtifactChanges: 0.379ms
+	CategorizeAssets: 97.147ms
+	CompileScripts: 4.238ms
+	ImportOutOfDateAssets: 2656.802ms (2655.699ms without children)
+		UnloadImportedAssets: 0.158ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.237ms
+		ImportSchedulerStart: 0.675ms
+	PostProcessAllAssets: 43.398ms
+		MonoPostProcessAllAssets: 43.394ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 16.491ms
+			SyncVS.PostprocessSyncProject 13.822ms
+			AssetChangedListener.OnPostprocessAllAssets 9.983ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.722ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.762ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 4.377ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.915ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.353ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.347ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.218ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.176ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.937ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.851ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.633ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.586ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.556ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.492ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.483ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.474ms
+			AssetEvents.OnPostprocessAllAssets 0.413ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.323ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.288ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.285ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.259ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.249ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.239ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.188ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.156ms
+	PersistCurrentRevisions: 0.097ms
+	GenerateScriptTypeHashes: 1.096ms
+	GenerateScriptTypeSerializationHashes: 2.397ms
+	Untracked: 1568.027ms
+
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+Farm is starting: FarmManager
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:Awake () (at Assets/Scripts/Farm.cs:17)
+
+(Filename: Assets/Scripts/Farm.cs Line: 17)
+
+Field Prefab assigned: FieldPlot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:Awake () (at Assets/Scripts/Farm.cs:27)
+
+(Filename: Assets/Scripts/Farm.cs Line: 27)
+
+Created 50 fields!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:CreateFields () (at Assets/Scripts/Farm.cs:64)
+Farm:Awake () (at Assets/Scripts/Farm.cs:32)
+
+(Filename: Assets/Scripts/Farm.cs Line: 64)
+
+Farm is starting: FarmTester
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:Awake () (at Assets/Scripts/Farm.cs:17)
+
+(Filename: Assets/Scripts/Farm.cs Line: 17)
+
+Field Prefab assigned: FieldPlot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:Awake () (at Assets/Scripts/Farm.cs:27)
+
+(Filename: Assets/Scripts/Farm.cs Line: 27)
+
+Created 50 fields!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:CreateFields () (at Assets/Scripts/Farm.cs:64)
+Farm:Awake () (at Assets/Scripts/Farm.cs:32)
+
+(Filename: Assets/Scripts/Farm.cs Line: 64)
+
+[DayNightBackground] Initialized. Current Time: 17:57:24 -> TimeOfDay: Afternoon
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DayNightBackgroundManager:Awake () (at Assets/Scripts/DayNightBackgroundManager.cs:97)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/GameObject.bindings.cs:264)
+UnityEngine.GameObject:AddComponent<DayNightBackgroundManager> () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/GameObject.bindings.cs:269)
+DayNightBackgroundManager:AutoInitialize () (at Assets/Scripts/DayNightBackgroundManager.cs:68)
+
+(Filename: Assets/Scripts/DayNightBackgroundManager.cs Line: 97)
+
+[DayNightBackground] Auto-spawned BackgroundManager in scene.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DayNightBackgroundManager:AutoInitialize () (at Assets/Scripts/DayNightBackgroundManager.cs:69)
+
+(Filename: Assets/Scripts/DayNightBackgroundManager.cs Line: 69)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.190 ms
+	Integration:            1198.470 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   1203.672 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+R PRESSED!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FarmTester:Update () (at Assets/Scripts/FarmTester.cs:66)
+
+(Filename: Assets/Scripts/FarmTester.cs Line: 66)
+
+All plants removed!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Farm:RemoveAllPlants () (at Assets/Scripts/Farm.cs:103)
+FarmTester:Update () (at Assets/Scripts/FarmTester.cs:73)
+
+(Filename: Assets/Scripts/Farm.cs Line: 103)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.003 ms
+	Integration:            44.592 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   47.606 ms
+Unloading 10 unused Assets / (0.6 MB). Loaded Objects now: 3888.
+Memory consumption went from 320.5 MB to 319.9 MB.
+Total: 43.980370 ms (FindLiveObjects: 0.553467 ms CreateObjectMapping: 0.071011 ms MarkObjects: 42.917530 ms  DeleteObjects: 0.139974 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Unhandled description string [
+Unhandled description string ]
+Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '8537d8f7f299cfe77bcb477a715b9522') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=024c942fddc2cb857ccb9edff708c760 DependenciesID=7e7eb3c40ef1f9d58d18ed53c8a888e2 StaticDependenciesID=5ffc6fc5aad374c077c3b703b243a857 
+Asset Pipeline Refresh (id=b12ebcf0b5e1c77fd8ba532fe51b5924): Total: 0.092 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)

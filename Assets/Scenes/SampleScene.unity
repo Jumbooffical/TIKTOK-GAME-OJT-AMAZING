@@ -312,8 +312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b83df4b404e3523a29c749b602035694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProgressBar
-  empty: {fileID: 0}
-  filled: {fileID: 0}
+  empty: {fileID: -44826111175522740, guid: f08467138af81af9b9eb87bdb3cbe9bb, type: 3}
+  filled: {fileID: 2202495031992445013, guid: 77dab283519b46ba48444f5b52945cbf, type: 3}
 --- !u!223 &82673020
 Canvas:
   m_ObjectHideFlags: 0
