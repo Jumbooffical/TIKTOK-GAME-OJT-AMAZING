@@ -5,30 +5,27 @@ public class FarmTester : MonoBehaviour
 {
     public Farm farm;
 
+<<<<<<< Updated upstream
     public ProgressBar progressBar;
 
     [Header("Crop List (15 Crops Total)")]
     public string[] allCrops =
+=======
+    string[] commonCrops =
+>>>>>>> Stashed changes
     {
-        // 5 cay ban dau
         "WhiteFlower",
         "PurpleFlower",
-        "Herb",
-        "PurpleMushroom",
-        "RedMushroom",
-
-        // 10 cay moi bo sung
-        "Carrot",
-        "Tomato",
-        "Strawberry",
-        "Corn",
-        "Wheat",
-        "Sunflower",
-        "Pumpkin",
-        "Watermelon",
-        "Eggplant",
-        "Radish"
+        "Herb"
     };
+
+    string[] rareCrops =
+    {
+        "PurpleMushroom",
+        "RedMushroom"
+    };
+
+    const float rareChance = 10f;
 
     private void Awake()
     {
@@ -40,29 +37,17 @@ public class FarmTester : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current == null)
-        {
+        if (farm == null || Keyboard.current == null)
             return;
-        }
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            Debug.Log("SPACE PRESSED!");
-
-            if (farm == null)
-            {
-                Debug.LogError("Farm reference is missing!");
-                return;
-            }
-
-            // Play planting sound
-            SfxManager.Instance.PlayPlanting();
-
             PlantInNextEmptyPlot();
         }
 
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
+<<<<<<< Updated upstream
             Debug.Log("R PRESSED!");
 
             // Play planting sound
@@ -71,9 +56,11 @@ public class FarmTester : MonoBehaviour
             progressBar.SetStep(3);
 
             farm.RemoveAllPlants();
+=======
+            farm.HarvestAllPlants();
+>>>>>>> Stashed changes
         }
     }
-
 
     void PlantInNextEmptyPlot()
     {
@@ -86,8 +73,6 @@ public class FarmTester : MonoBehaviour
 
                 farm.AddPlant(i, cropName, cropIndex);
 
-                Debug.Log("You got: " + cropName);
-
                 return;
             }
         }
@@ -97,17 +82,22 @@ public class FarmTester : MonoBehaviour
 
     int GetRandomCrop()
     {
-        // Ti le xuat hien bang nhau ngau nhien cho tat ca cac loai cay
-        return Random.Range(0, allCrops.Length);
+        if (Random.Range(0f, 100f) < rareChance)
+        {
+            return Random.Range(0, rareCrops.Length)
+                + commonCrops.Length;
+        }
+
+        return Random.Range(0, commonCrops.Length);
     }
 
     string GetCropName(int cropIndex)
     {
-        if (cropIndex >= 0 && cropIndex < allCrops.Length)
+        if (cropIndex < commonCrops.Length)
         {
-            return allCrops[cropIndex];
+            return commonCrops[cropIndex];
         }
 
-        return "UnknownCrop";
+        return rareCrops[cropIndex - commonCrops.Length];
     }
 }
