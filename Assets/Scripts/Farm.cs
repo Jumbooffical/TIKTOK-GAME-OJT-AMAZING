@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 
 public class Farm : MonoBehaviour
@@ -11,7 +12,8 @@ public class Farm : MonoBehaviour
     public int totalPlots = 50;
     public int columns = 10;
     public float spacing = 20;
-
+    public float growTime = 5f;
+    //change to 60f if you want a minute
     private void Awake()
     {
         Debug.Log("Farm is starting: " + gameObject.name);
@@ -74,13 +76,26 @@ public class Farm : MonoBehaviour
             Debug.Log("This plot is already occupied!");
             return;
         }
+        Plant plant = new Plant(plantName);
+        plots[plotIndex] = plant;
+        Debug.Log("AddPlant called, growTime = " + growTime);
+        StartCoroutine(GrowRoutine(plotIndex, plant, plantName, cropIndex));
 
-        plots[plotIndex] = new Plant(plantName);
-
-        // Display the selected crop
-        fieldViews[plotIndex].PlantCrop(cropIndex, plantName);
     
         Debug.Log("Planted " + plantName + " in plot " + plotIndex);
+    }
+    IEnumerator GrowRoutine(int plotIndex, Plant plant, string plantName, int cropIndex)
+    {
+        // Simulate growth time
+        Debug.Log("Grow started for plot " + plotIndex);
+        yield return new WaitForSeconds(growTime);
+        Debug.Log("Grow finished for plot " + plotIndex);
+
+        if (plots[plotIndex] != plant)
+            yield break;
+
+        // Update the field view with the grown crop
+        fieldViews[plotIndex].PlantCrop(cropIndex, plantName);
     }
 
     public void RemovePlant(int plotIndex)
