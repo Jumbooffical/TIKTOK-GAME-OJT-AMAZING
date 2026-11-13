@@ -78,7 +78,7 @@ public class Farm : MonoBehaviour
         plots[plotIndex] = new Plant(plantName);
 
         // Display the selected crop
-        fieldViews[plotIndex].PlantCrop(cropIndex);
+        fieldViews[plotIndex].PlantCrop(cropIndex, plantName);
     
         Debug.Log("Planted " + plantName + " in plot " + plotIndex);
     }

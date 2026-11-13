@@ -1,30 +1,32 @@
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class FarmTester : MonoBehaviour
 {
-    [SerializeField] private ProgressBar progressBar;
-
     public Farm farm;
 
-    // Common crops
-    string[] commonCrops =
+    [Header("Crop List (15 Crops Total)")]
+    public string[] allCrops =
     {
+        // 5 cay ban dau
         "WhiteFlower",
         "PurpleFlower",
-        "Herb"
-    };
-
-    // Rare crops
-    string[] rareCrops =
-    {
+        "Herb",
         "PurpleMushroom",
         "RedMushroom",
-    };
 
-    // 10% chance to enter the rare pool
-    const float rareChance = 10f;
+        // 10 cay moi bo sung
+        "Carrot",
+        "Tomato",
+        "Strawberry",
+        "Corn",
+        "Wheat",
+        "Sunflower",
+        "Pumpkin",
+        "Watermelon",
+        "Eggplant",
+        "Radish"
+    };
 
     private void Awake()
     {
@@ -63,11 +65,11 @@ public class FarmTester : MonoBehaviour
 
             // Play planting sound
             SfxManager.Instance.PlayHarvestAllPlants();
-            progressBar.SetStep(3);
 
             farm.RemoveAllPlants();
         }
     }
+
 
     void PlantInNextEmptyPlot()
     {
@@ -91,25 +93,17 @@ public class FarmTester : MonoBehaviour
 
     int GetRandomCrop()
     {
-        // Roll for rare crop
-        if (Random.Range(0f, 100f) < rareChance)
-        {
-            // Choose a random rare crop
-            return Random.Range(0, rareCrops.Length)
-                + commonCrops.Length;
-        }
-
-        // Choose a random common crop
-        return Random.Range(0, commonCrops.Length);
+        // Ti le xuat hien bang nhau ngau nhien cho tat ca cac loai cay
+        return Random.Range(0, allCrops.Length);
     }
 
     string GetCropName(int cropIndex)
     {
-        if (cropIndex < commonCrops.Length)
+        if (cropIndex >= 0 && cropIndex < allCrops.Length)
         {
-            return commonCrops[cropIndex];
+            return allCrops[cropIndex];
         }
 
-        return rareCrops[cropIndex - commonCrops.Length];
+        return "UnknownCrop";
     }
 }
