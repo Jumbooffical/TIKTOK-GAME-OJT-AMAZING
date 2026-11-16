@@ -3,7 +3,10 @@ guid: d1e2f3a4b5c60718293a4b5c6d7e8f10
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - morningSprite: {fileID: 21300000, guid: e1f2a3b4c5d60718293a4b5c6d7e8f01, type: 3}
+  - afternoonSprite: {instanceID: 0}
+  - nightSprite: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

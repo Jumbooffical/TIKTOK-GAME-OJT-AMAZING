@@ -426,6 +426,7 @@
 -r:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@508b95ff9afe/net472/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.2D.Welcome.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.InputSystem.ForUI.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.InputSystem.ForUI.ref.dll"

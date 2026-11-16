@@ -56,6 +56,8 @@ public class DayNightBackgroundManager : MonoBehaviour
 
     private TimeOfDay currentTimeOfDay;
     private Coroutine transitionCoroutine;
+
+
     private Camera targetCamera;
     private Material unlitMaterial;
 
@@ -65,6 +67,7 @@ public class DayNightBackgroundManager : MonoBehaviour
         if (FindAnyObjectByType<DayNightBackgroundManager>() == null)
         {
             GameObject bgObj = new GameObject("BackgroundManager");
+            bgObj.transform.SetAsFirstSibling();
             bgObj.AddComponent<DayNightBackgroundManager>();
             Debug.Log("[DayNightBackground] Auto-spawned BackgroundManager in scene.");
         }
