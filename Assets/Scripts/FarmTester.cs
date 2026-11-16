@@ -45,6 +45,8 @@ public class FarmTester : MonoBehaviour
         {
             Debug.Log("R PRESSED!");
 
+            farm.HarvestAllPlants();
+
             // Play planting sound
             SfxManager.Instance.PlayHarvestAllPlants();
         }
