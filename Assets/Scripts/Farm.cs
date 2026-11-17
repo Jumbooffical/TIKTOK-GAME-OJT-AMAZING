@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using TMPro;
 
@@ -32,6 +33,19 @@ public class Farm : MonoBehaviour
         "PurpleMushroom",
         "RedMushroom"
     };
+
+    [Header("Season Settings")]
+    public TMP_Text seasonText;
+
+    private string[] seasons =
+    {
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+    };
+
+    private int currentSeasonIndex = 0;
 
     private void Awake()
     {
@@ -159,6 +173,29 @@ public class Farm : MonoBehaviour
         UpdateStatsUI();
     }
 
+    public void StartNewSeason()
+    {
+        // Remove all plants without awarding harvest points
+        for (int i = 0; i < plots.Length; i++)
+        {
+            plots[i] = null;
+            fieldViews[i].RemoveCrop();
+        }
+
+        // Advance to the next season
+        currentSeasonIndex++;
+
+        // Return to Spring after Winter
+        if (currentSeasonIndex >= seasons.Length)
+        {
+            currentSeasonIndex = 0;
+        }
+
+        Debug.Log("New Season: " + seasons[currentSeasonIndex]);
+
+        UpdateStatsUI();
+    }
+
     void UpdateStatsUI()
     {
         // Update harvested statistics
@@ -166,21 +203,10 @@ public class Farm : MonoBehaviour
         {
             string display = "HARVEST STATISTICS\n\n";
 
-            for (int i = 0; i < cropNames.Length; i++)
-            {
-                display += cropNames[i] + ": ";
-
-                if (i < harvestedCropCounts.Length)
-                    display += harvestedCropCounts[i];
-                else
-                    display += "0";
-
-                display += "\n";
-            }
-
-            display += "\n--------------------\n";
             display += "Total Harvested: " + totalHarvested + "\n";
-            display += "Total Score: " + totalScore;
+            display += "Total Score: " + totalScore + "\n";
+            display += "--------------------\n";
+            display += "Current Season: " + seasons[currentSeasonIndex];
 
             statsText.text = display;
         }

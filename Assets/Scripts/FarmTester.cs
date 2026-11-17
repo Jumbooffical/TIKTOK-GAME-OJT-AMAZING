@@ -5,14 +5,7 @@ public class FarmTester : MonoBehaviour
 {
     public Farm farm;
 
-<<<<<<< Updated upstream
-    public ProgressBar progressBar;
-
-    [Header("Crop List (15 Crops Total)")]
-    public string[] allCrops =
-=======
     string[] commonCrops =
->>>>>>> Stashed changes
     {
         "WhiteFlower",
         "PurpleFlower",
@@ -43,22 +36,16 @@ public class FarmTester : MonoBehaviour
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             PlantInNextEmptyPlot();
+
+            SfxManager.Instance.PlayPlanting();
         }
 
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
-<<<<<<< Updated upstream
-            Debug.Log("R PRESSED!");
-
-            // Play planting sound
-            SfxManager.Instance.PlayHarvestAllPlants();
-
-            progressBar.SetStep(3);
-
-            farm.RemoveAllPlants();
-=======
             farm.HarvestAllPlants();
->>>>>>> Stashed changes
+            farm.StartNewSeason();
+
+            SfxManager.Instance.PlayHarvestAllPlants();
         }
     }
 
