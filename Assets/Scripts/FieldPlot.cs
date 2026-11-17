@@ -92,9 +92,12 @@ public class FieldPlot : MonoBehaviour
         // Can chinh scale dua theo do phan giai cua sprite de bang dung voi cay cu
         if (sprite != null)
         {
-            // Base the plant's scale on its sprite size vs the plot's size, which is 64
+            // Base the plant's scale on its sprite size vs the plot's size
             float spritePixelMax = Mathf.Max(sprite.rect.width, sprite.rect.height);
-            float calculatedScale = 64 / spritePixelMax;
+            Sprite fieldPlotSprite = transform.GetComponent<SpriteRenderer>().sprite;
+            float fieldPlotSpritePixelMax = Mathf.Max(fieldPlotSprite.rect.width, fieldPlotSprite.rect.height);
+            print(fieldPlotSpritePixelMax);
+            float calculatedScale = fieldPlotSpritePixelMax / spritePixelMax;
             dynamicCropRenderer.transform.localScale = Vector3.one * calculatedScale;
         }
         else

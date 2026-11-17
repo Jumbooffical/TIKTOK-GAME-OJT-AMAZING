@@ -510,7 +510,7 @@
 /debug:portable
 /nologo
 /RuntimeMetadataVersion:v4.0.30319
--ruleset:"/media/veracrypt2/mydata/Projects/tgoa2/TIKTOK-GAME-OJT-AMAZING/Library/ImmutablePackage.ruleset"
+-ruleset:"/media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Library/ImmutablePackage.ruleset"
 /nowarn:0169
 /nowarn:0649
 /nowarn:0282

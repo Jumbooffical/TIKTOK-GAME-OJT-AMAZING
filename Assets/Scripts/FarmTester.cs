@@ -49,7 +49,7 @@ public class FarmTester : MonoBehaviour
         }
     }
 
-    void PlantInNextEmptyPlot()
+    public void PlantInNextEmptyPlot()
     {
         for (int i = 0; i < farm.plots.Length; i++)
         {
