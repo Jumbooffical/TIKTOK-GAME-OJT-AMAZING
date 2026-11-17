@@ -7,10 +7,7 @@ public class FieldPlot : MonoBehaviour
 
     [Header("Dynamic Crop Display (auto-generated)")]
     public SpriteRenderer dynamicCropRenderer;
-
-    [Header("Crop Size Settings")]
-    [Tooltip("Kich thuoc dong nhat cua cay (2.24 tuong duong cay cu 32x32 scale 7)")]
-    public float targetCropSize = 2.24f;
+    
 
     private void Awake()
     {
@@ -43,10 +40,10 @@ public class FieldPlot : MonoBehaviour
     {
         HideAllCrops();
 
-        // 1. Neu co san GameObject trong mang crops (5 loai cay goc)
+        // 1. Neu co san GameObject trong mang crops
         if (crops != null && cropIndex >= 0 && cropIndex < crops.Length && crops[cropIndex] != null)
         {
-            crops[cropIndex].SetActive(true);
+            ShowDynamicCrop(crops[cropIndex].GetComponent<SpriteRenderer>().sprite, crops[cropIndex].name);
             Debug.Log("Displaying crop (GameObject): " + crops[cropIndex].name);
             return;
         }
@@ -95,9 +92,9 @@ public class FieldPlot : MonoBehaviour
         // Can chinh scale dua theo do phan giai cua sprite de bang dung voi cay cu
         if (sprite != null)
         {
+            // Base the plant's scale on its sprite size vs the plot's size, which is 64
             float spritePixelMax = Mathf.Max(sprite.rect.width, sprite.rect.height);
-            float baseSize = spritePixelMax / sprite.pixelsPerUnit;
-            float calculatedScale = targetCropSize / baseSize;
+            float calculatedScale = 64 / spritePixelMax;
             dynamicCropRenderer.transform.localScale = Vector3.one * calculatedScale;
         }
         else

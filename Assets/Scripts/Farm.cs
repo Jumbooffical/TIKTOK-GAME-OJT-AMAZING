@@ -72,8 +72,8 @@ public class Farm : MonoBehaviour
             int column = i % columns;
 
             Vector3 position = new Vector3(
-                column * spacing,
-                -row * spacing,
+                column * spacing + transform.position.x,
+                -row * spacing + transform.position.y,
                 0
             );
 
