@@ -17,3 +17,15 @@ Initialising UDS system complete:
   - Command buffer size: 8192
   - Hashmap size: 4194304
 Starting Unity Data Store Application
+[Error] Failed to remove data for hash 6fd6a6ae5d598cc5196a44eea419226c. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+

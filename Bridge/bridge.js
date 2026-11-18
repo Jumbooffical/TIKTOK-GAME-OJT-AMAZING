@@ -1,7 +1,12 @@
-const { WebcastPushConnection } = require('tiktok-live-connector');
+// USAGE:
+// node bridge.js yourusername
+
+const { TikTokLiveConnection, WebcastEvent } = require('tiktok-live-connector');
 const { WebSocketServer } = require('ws');
 
-const USERNAME = 'your_tiktok_username'; // must be live
+// Change 'your_tiktok_username' to your username
+const USERNAME = process.argv[2] || 'your_tiktok_username';
+
 const wss = new WebSocketServer({ port: 8080 });
 
 function send(obj) {
@@ -11,14 +16,35 @@ function send(obj) {
 	}
 }
 
-const tiktok = new WebcastPushConnection(USERNAME);
-tiktok.connect().then(() => console.log('Connected to live'));
+// the 2.x payload may nest the user: d.user.uniqueId instead of d.uniqueId
+const who = d => (d.user && d.user.uniqueId) || d.uniqueId || 'unknown';
 
-tiktok.on('chat', d => send({ type: 'chat', user: d.uniqueId, comment: d.comment }));
-tiktok.on('like', d => send({ type: 'like', user: d.uniqueId, count: d.likeCount }));
-tiktok.on('follow', d => send({ type: 'follow', user: d.uniqueId }));
-tiktok.on('gift', d => {
-	// streakable gifts (giftType 1) fire repeatedly; only send once the streak ends
-	if (d.giftType === 1 && !d.repeatEnd) return;
-	send({ type: 'gift', user: d.uniqueId, gift: d.giftName, count: d.repeatCount, diamonds: d.diamondCount });
+const connection = new TikTokLiveConnection(USERNAME);
+
+connection.connect()
+	.then(state => console.log('Connected to room', state.roomId))
+	.catch(err => console.error('Failed to connect:', err));
+
+connection.on(WebcastEvent.CHAT, d => {
+	console.log('chat', who(d), d.comment);
+	send({ type: 'chat', user: who(d), comment: d.comment });
+});
+
+connection.on(WebcastEvent.LIKE, d => {
+	send({ type: 'like', user: who(d), count: d.likeCount });
+});
+
+connection.on(WebcastEvent.FOLLOW, d => {
+	send({ type: 'follow', user: who(d) });
+});
+
+connection.on(WebcastEvent.GIFT, d => {
+	console.log('gift raw:', JSON.stringify(d).slice(0, 300)); // check the field names once
+	send({
+		type: 'gift',
+		user: who(d),
+		gift: d.giftName,
+		count: d.repeatCount,
+		diamonds: d.diamondCount
+	});
 });

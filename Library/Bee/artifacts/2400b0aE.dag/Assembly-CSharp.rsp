@@ -452,6 +452,7 @@
 -analyzer:"/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Music/MusicManager.cs"
 "Assets/Scripts/DayNightBackgroundManager.cs"
+"Assets/Scripts/FakeEvents.cs"
 "Assets/Scripts/Farm.cs"
 "Assets/Scripts/FarmTester.cs"
 "Assets/Scripts/FieldPlot.cs"
