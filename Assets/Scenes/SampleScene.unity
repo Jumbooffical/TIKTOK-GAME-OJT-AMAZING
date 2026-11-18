@@ -1115,7 +1115,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 20.8
+  orthographic size: 13.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1140,7 +1140,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.1, y: 0, z: -10}
+  m_LocalPosition: {x: 9.5, y: -1.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2432,7 +2432,7 @@ MonoBehaviour:
   fieldPrefab: {fileID: 3751753846654571537}
   totalPlots: 50
   columns: 10
-  spacing: 3
+  spacing: 3.47
   cropScores: 0a000000140000000f0000001e00000032000000i
   statsText: {fileID: 1414869995}
   currentScoreText: {fileID: 1464821994}
@@ -3477,7 +3477,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.27450982}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   fieldPrefab: {fileID: 3751753846654571537}
   totalPlots: 50
   columns: 10
-  spacing: 3
+  spacing: 3.47
   cropScores: 0a000000140000000f0000001e00000032000000i
   statsText: {fileID: 1414869995}
   currentScoreText: {fileID: 1464821994}

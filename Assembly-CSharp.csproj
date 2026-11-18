@@ -64,6 +64,8 @@
     <Compile Include="Assets/Scripts/Plant.cs" />
     <Compile Include="Assets/Music/MusicManager.cs" />
     <Compile Include="Assets/Scripts/Farm.cs" />
+    <Compile Include="Assets/Scripts/FarmUIManager.cs" />
+    <Compile Include="Assets/Scripts/SeasonManager.cs" />
     <Compile Include="Assets/Scripts/SfxManager.cs" />
     <Compile Include="Assets/Scripts/FakeEvents.cs" />
   </ItemGroup>
