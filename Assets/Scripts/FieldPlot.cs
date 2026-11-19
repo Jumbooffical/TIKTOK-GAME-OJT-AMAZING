@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class FieldPlot : MonoBehaviour
 {
@@ -7,7 +8,11 @@ public class FieldPlot : MonoBehaviour
 
     [Header("Dynamic Crop Display (auto-generated)")]
     public SpriteRenderer dynamicCropRenderer;
-    
+    [Header("Silhouette Reveal")]
+    public float revealDelay = 5f;   // use 60 for the final version
+    public float fadeTime = 0.4f;
+    public bool IsRevealed { get; private set; }
+    public System.Action OnRevealed;
 
     private void Awake()
     {
@@ -16,6 +21,9 @@ public class FieldPlot : MonoBehaviour
 
     public void HideAllCrops()
     {
+        StopAllCoroutines();
+        IsRevealed = false;
+        if (dynamicCropRenderer != null) dynamicCropRenderer.color = Color.white;
         if (crops != null)
         {
             foreach (GameObject crop in crops)
@@ -106,9 +114,31 @@ public class FieldPlot : MonoBehaviour
         }
 
         dynamicCropRenderer.gameObject.SetActive(true);
+        StartCoroutine(RevealRoutine());
 
         Debug.Log("Displaying crop (Dynamic Sprite): " + sprite.name);
+
     }
+    IEnumerator RevealRoutine()
+    {
+        IsRevealed = false;
+        dynamicCropRenderer.color = Color.black;
+
+        yield return new WaitForSeconds(revealDelay);
+
+        float t = 0f;
+        while (t < fadeTime)
+        {
+            t += Time.deltaTime;
+            dynamicCropRenderer.color = Color.Lerp(Color.black, Color.white, t / fadeTime);
+            yield return null;
+        }
+
+        dynamicCropRenderer.color = Color.white;
+        IsRevealed = true;
+        if (OnRevealed != null) OnRevealed();
+    }
+
 
     public void RemoveCrop()
     {

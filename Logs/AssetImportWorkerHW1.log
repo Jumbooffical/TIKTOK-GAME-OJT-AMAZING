@@ -1,66 +1,62 @@
-Unity Editor version:    6000.6.8f1 (237b6593792b)
-Branch:                  6000.6/respin/6000.6.8f1-b6138bef9630
-Build type:              Release
-Batch mode:              YES
-System name:             Linux
-Distro version:          #1 SMP PREEMPT_DYNAMIC Fri, 13 Nov 2026 19:45:18 +0000
-Kernel version:          7.3.4-1-cachyos
-Architecture:            x86_64
-Available memory:        7821 MB
-Date:                    2026-11-18T09:13:10Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-test" at "2026-11-18T09:13:10.835672Z"
-[SignatureVerifier] Application signature verification not supported on this platform.
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Win 10" at "2026-11-19T07:50:19.1434767Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 130756 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-19T07:50:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21008, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              27d32bdf007f4280b4e4bd4d144f122d
-  Correlation Id:          c5c53c38f257d1b0387d9f5398d42872
-  External correlation Id: 8083773118632784092
-  Machine Id:              LtPgLCM8N+pSeg26FE53R6UaXAI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-test" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-test-notifications" at "2026-11-18T09:13:10.840305Z"
-[Licensing::Module] Licensing Background thread has ended after 0.00s
-Selected window backend: (null) 
-Desktop is 1920 x 1080 @ 60 Hz
-Initialize udev device monitor.
+  Session Id:              b472c7d9fc6c45ce9df364823747a9ab
+  Correlation Id:          621693aeb35447fccd6396d2e8fad833
+  External correlation Id: 2103859835153617084
+  Machine Id:              z9RVfNgj9/kZtKofvmJA/pgJAUA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Win 10" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Win 10-notifications" at "2026-11-19T07:50:19.1788017Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 
 COMMAND LINE ARGUMENTS:
-Unity
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorkerHW1
 -projectPath
-/media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING
+D:/intern/19-11-26
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-39061
+60873
 -parentPid
-337
+26128
 -analyticsCloudUserId
-18968544174790
+18968517178691
 -analyticsLocalProjectId
 b5dc2b4c81440fefa8e21871b611c0e9
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-11bc52cf233c45959b987c76e043a844bcd195ee
+b8a35e1e3e15183ff16a40382e9a5a9ab0143b71
 -cbmMachineId
-LtPgLCM8N+pSeg26FE53R6UaXAI=
+z9RVfNgj9/kZtKofvmJA/pgJAUA=
 -licensingIpc
-LicenseClient-test
+LicenseClient-Win 10
 -noDiagnosticSwitchPersistentStore
 -job-worker-count
-3
+11
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
--force-vulkan
-Successfully changed project path to: /media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING
-/media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/intern/19-11-26
+D:/intern/19-11-26
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -70,13 +66,13 @@ Successfully changed project path to: /media/veracrypt1/mydata/Projects/TIKTOK-G
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-remapper-allocator-initial-capacity=32768"
     "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -98,26 +94,26 @@ Successfully changed project path to: /media/veracrypt1/mydata/Projects/TIKTOK-G
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [140237274602240]  Target information:
+Player connection [10424]  Target information:
 
-Player connection [140237274602240]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2792997605 [EditorId] 2792997605 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.8) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [10424]  * "[IP] 192.168.100.123 [Port] 0 [Flags] 2 [Guid] 1595498879 [EditorId] 1595498879 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2MO6IK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [140237274602240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140237274602240] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [10424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: b2774d34a14bc7149ccc5e3f6acc9ac8
+  - Resource namespace: b6f597eb7f0e8a1173312d197530b507
   - Shared memory size: 1073741824
-  - Command buffer id: 1052624
+  - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: true
   - Service working directory: Library/DataStore/
-Library Redirect Path: Library/
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -126,532 +122,77 @@ Library Redirect Path: Library/
 [Physics::Module] Threading Mode: Multi-Threaded
 Initialize engine version: 6000.6.8f1 (237b6593792b)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
-[Subsystems] Discovering subsystems at path /home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Assets
-Forcing GfxDevice: Vulkan
-GfxDevice: creating device client; kGfxThreadingModeThreaded
-[vulkan] LoadVulkanLibrary libvulkan.so.1[vulkan] Loaded instance function vkGetInstanceProcAddr
-[vulkan] Loaded instance function vkGetInstanceProcAddr
-[vulkan] Loaded instance function vkCreateInstance
-[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
-[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
-[vulkan] Loaded instance function vkEnumerateInstanceVersion
-[Vulkan init] extensions: count=26
-[Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_direct_mode_display [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_display_surface_counter [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_headless_surface [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_layer_settings [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_display [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_display_properties2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_portability_enumeration [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_surface_maintenance1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_wayland_surface [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_xcb_surface [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_xlib_surface [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading [enabled=0, external=0]
-[vulkan] Loaded instance function vkDestroyInstance
-[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
-[vulkan] Loaded instance function vkEnumeratePhysicalDevices
-[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x558433000290 [0]: "Intel(R) HD Graphics 530 (SKL GT2)" deviceType=1 vendorID=8086 deviceID=191b
-Vulkan detection: 2
-[Vulkan init] extensions: count=26
-[Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_direct_mode_display [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_display_surface_counter [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_headless_surface [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_layer_settings [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_display [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_display_properties2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_portability_enumeration [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_surface_maintenance1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_wayland_surface [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_xcb_surface [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_xlib_surface [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading [enabled=0, external=0]
-[vulkan] Loaded instance function vkDestroyInstance
-[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
-[vulkan] Loaded instance function vkEnumeratePhysicalDevices
-[vulkan] Loaded instance function vkGetDeviceProcAddr
-[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
-[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
-[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
-[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
-[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
-[vulkan] Loaded instance function vkCreateDevice
-[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
-[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
-[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
-[vulkan] Loaded instance function vkDestroySurfaceKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
-[vulkan] Loaded instance function vkCreateSwapchainKHR
-[vulkan] Loaded instance function vkDestroySwapchainKHR
-[vulkan] Loaded instance function vkGetSwapchainImagesKHR
-[vulkan] Loaded instance function vkAcquireNextImageKHR
-[vulkan] Loaded instance function vkQueuePresentKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
-[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
-[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
-[vulkan] Loaded instance function vkCreateDisplayModeKHR
-[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
-[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
-[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
-[vulkan] Loaded instance function vkCreateXlibSurfaceKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceXlibPresentationSupportKHR
-[vulkan] Loaded instance function vkSetHdrMetadataEXT
-[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
-[vulkan] Loaded instance function vkGetSemaphoreFdKHR
-[vulkan] Loaded instance function vkImportSemaphoreFdKHR
-[vulkan] Loaded instance function vkGetFenceFdKHR
-[vulkan] Loaded instance function vkImportFenceFdKHR
-[vulkan] Loaded instance function vkCreateSamplerYcbcrConversionKHR
-[vulkan] Loaded instance function vkDestroySamplerYcbcrConversionKHR
-[vulkan] Loaded instance function vkBindBufferMemory2KHR
-[vulkan] Loaded instance function vkBindImageMemory2KHR
-[vulkan] Loaded instance function vkWaitForPresentKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceExternalFencePropertiesKHR
-[vulkan] Loaded instance function vkGetPhysicalDeviceFragmentShadingRatesKHR
-[vulkan] Loaded instance function vkSetDebugUtilsObjectNameEXT
-[vulkan] Loaded instance function vkSetDebugUtilsObjectTagEXT
-[vulkan] Loaded instance function vkQueueBeginDebugUtilsLabelEXT
-[vulkan] Loaded instance function vkQueueEndDebugUtilsLabelEXT
-[vulkan] Loaded instance function vkQueueInsertDebugUtilsLabelEXT
-[vulkan] Loaded instance function vkCmdBeginDebugUtilsLabelEXT
-[vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
-[vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
-[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x558433040f60 [0]: "Intel(R) HD Graphics 530 (SKL GT2)" deviceType=1 vendorID=8086 deviceID=191b
-[Vulkan init] Selected physical device 0x558433040f60
-[Vulkan init] Graphics queue count=1
-[Vulkan init] extensions: count=193
-[Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_4444_formats [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_dynamic_state [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_border_color_swizzle [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_buffer_device_address [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_color_write_enable [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_conditional_rendering [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_custom_border_color [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_debug_marker [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_depth_bias_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_depth_clamp_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_depth_clip_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_depth_clip_enable [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_descriptor_buffer [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_descriptor_heap [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_descriptor_indexing [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_device_address_binding_report [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_device_memory_report [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_display_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_dynamic_rendering_unused_attachments [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_external_memory_acquire_unmodified [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_external_memory_host [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_global_priority [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_global_priority_query [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_hdr_metadata [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_host_image_copy [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_host_query_reset [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_image_robustness [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_image_sliced_view_of_3d [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_image_view_min_lod [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_index_type_uint8 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_inline_uniform_block [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_legacy_dithering [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_legacy_vertex_attributes [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_line_rasterization [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_load_store_op_none [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_map_memory_placed [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_memory_budget [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_multi_draw [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_mutable_descriptor_type [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_nested_command_buffer [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_pci_bus_info [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_physical_device_drm [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_pipeline_robustness [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_post_depth_coverage [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_present_timing [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_primitive_restart_index [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_primitives_generated_query [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_private_data [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_provoking_vertex [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_queue_family_foreign [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_robustness2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_sample_locations [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_scalar_block_layout [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_atomic_float [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_atomic_float2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_module_identifier [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_object [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_replicated_composites [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_stencil_export [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_uniform_buffer_unsized_array [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_subgroup_size_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_tooling_info [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_transform_feedback [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_GOOGLE_decorate_string [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_GOOGLE_user_type [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_INTEL_shader_integer_functions2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_16bit_storage [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_8bit_storage [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_buffer_device_address [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_calibrated_timestamps [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_compute_shader_derivatives [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_copy_commands2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_copy_memory_indirect [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_create_renderpass2 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_deferred_host_operations [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_depth_clamp_zero_one [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_descriptor_update_template [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_device_address_commands [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_device_group [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_draw_indirect_count [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_driver_properties [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_dynamic_rendering [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_dynamic_rendering_local_read [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_fence_fd [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_memory_fd [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_format_feature_flags2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_global_priority [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_image_format_list [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_index_type_uint8 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_internally_synchronized_queues [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_line_rasterization [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_load_store_op_none [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance10 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance11 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance4 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance5 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance6 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance7 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance8 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_maintenance9 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_map_memory2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_multiview [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_pipeline_binary [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_pipeline_library [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_present_id [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_present_id2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_present_wait [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_present_wait2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_push_descriptor [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_robustness2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_clock [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_constant_data [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_expect_assume [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_float16_int8 [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_float_controls [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_float_controls2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_fma [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_maximal_reconvergence [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_quad_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_relaxed_extended_instruction [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_subgroup_rotate [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_subgroup_uniform_control_flow [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_shader_untyped_pointers [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_spirv_1_4 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_swapchain_maintenance1 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format [enabled=1, external=0]
-[Vulkan init] extensions: name=VK_KHR_synchronization2 [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_timeline_semaphore [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_variable_pointers [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_vertex_attribute_divisor [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_MESA_image_alignment_control [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives [enabled=0, external=0]
-[Vulkan init] extensions: name=VK_VALVE_mutable_descriptor_type [enabled=0, external=0]
-[vulkan] Loaded device function vkDestroyDevice
-[vulkan] Loaded device function vkGetDeviceQueue
-[vulkan] Loaded device function vkQueueSubmit
-[vulkan] Loaded device function vkQueueWaitIdle
-[vulkan] Loaded device function vkDeviceWaitIdle
-[vulkan] Loaded device function vkAllocateMemory
-[vulkan] Loaded device function vkFreeMemory
-[vulkan] Loaded device function vkMapMemory
-[vulkan] Loaded device function vkUnmapMemory
-[vulkan] Loaded device function vkFlushMappedMemoryRanges
-[vulkan] Loaded device function vkInvalidateMappedMemoryRanges
-[vulkan] Loaded device function vkGetDeviceMemoryCommitment
-[vulkan] Loaded device function vkBindBufferMemory
-[vulkan] Loaded device function vkBindImageMemory
-[vulkan] Loaded device function vkGetBufferMemoryRequirements
-[vulkan] Loaded device function vkGetImageMemoryRequirements
-[vulkan] Loaded device function vkGetImageSparseMemoryRequirements
-[vulkan] Loaded device function vkQueueBindSparse
-[vulkan] Loaded device function vkCreateFence
-[vulkan] Loaded device function vkDestroyFence
-[vulkan] Loaded device function vkResetFences
-[vulkan] Loaded device function vkGetFenceStatus
-[vulkan] Loaded device function vkWaitForFences
-[vulkan] Loaded device function vkCreateSemaphore
-[vulkan] Loaded device function vkDestroySemaphore
-[vulkan] Loaded device function vkCreateEvent
-[vulkan] Loaded device function vkDestroyEvent
-[vulkan] Loaded device function vkGetEventStatus
-[vulkan] Loaded device function vkSetEvent
-[vulkan] Loaded device function vkResetEvent
-[vulkan] Loaded device function vkCreateQueryPool
-[vulkan] Loaded device function vkDestroyQueryPool
-[vulkan] Loaded device function vkGetQueryPoolResults
-[vulkan] Loaded device function vkCreateBuffer
-[vulkan] Loaded device function vkDestroyBuffer
-[vulkan] Loaded device function vkCreateBufferView
-[vulkan] Loaded device function vkDestroyBufferView
-[vulkan] Loaded device function vkCreateImage
-[vulkan] Loaded device function vkDestroyImage
-[vulkan] Loaded device function vkGetImageSubresourceLayout
-[vulkan] Loaded device function vkCreateImageView
-[vulkan] Loaded device function vkDestroyImageView
-[vulkan] Loaded device function vkCreateShaderModule
-[vulkan] Loaded device function vkDestroyShaderModule
-[vulkan] Loaded device function vkCreatePipelineCache
-[vulkan] Loaded device function vkDestroyPipelineCache
-[vulkan] Loaded device function vkGetPipelineCacheData
-[vulkan] Loaded device function vkMergePipelineCaches
-[vulkan] Loaded device function vkCreateGraphicsPipelines
-[vulkan] Loaded device function vkCreateComputePipelines
-[vulkan] Loaded device function vkDestroyPipeline
-[vulkan] Loaded device function vkCreatePipelineLayout
-[vulkan] Loaded device function vkDestroyPipelineLayout
-[vulkan] Loaded device function vkCreateSampler
-[vulkan] Loaded device function vkDestroySampler
-[vulkan] Loaded device function vkCreateDescriptorSetLayout
-[vulkan] Loaded device function vkDestroyDescriptorSetLayout
-[vulkan] Loaded device function vkCreateDescriptorPool
-[vulkan] Loaded device function vkDestroyDescriptorPool
-[vulkan] Loaded device function vkResetDescriptorPool
-[vulkan] Loaded device function vkAllocateDescriptorSets
-[vulkan] Loaded device function vkFreeDescriptorSets
-[vulkan] Loaded device function vkUpdateDescriptorSets
-[vulkan] Loaded device function vkCreateFramebuffer
-[vulkan] Loaded device function vkDestroyFramebuffer
-[vulkan] Loaded device function vkCreateRenderPass
-[vulkan] Loaded device function vkDestroyRenderPass
-[vulkan] Loaded device function vkGetRenderAreaGranularity
-[vulkan] Loaded device function vkCreateCommandPool
-[vulkan] Loaded device function vkDestroyCommandPool
-[vulkan] Loaded device function vkResetCommandPool
-[vulkan] Loaded device function vkAllocateCommandBuffers
-[vulkan] Loaded device function vkFreeCommandBuffers
-[vulkan] Loaded device function vkBeginCommandBuffer
-[vulkan] Loaded device function vkEndCommandBuffer
-[vulkan] Loaded device function vkResetCommandBuffer
-[vulkan] Loaded device function vkCmdBindPipeline
-[vulkan] Loaded device function vkCmdSetViewport
-[vulkan] Loaded device function vkCmdSetScissor
-[vulkan] Loaded device function vkCmdSetLineWidth
-[vulkan] Loaded device function vkCmdSetDepthBias
-[vulkan] Loaded device function vkCmdSetBlendConstants
-[vulkan] Loaded device function vkCmdSetDepthBounds
-[vulkan] Loaded device function vkCmdSetStencilCompareMask
-[vulkan] Loaded device function vkCmdSetStencilWriteMask
-[vulkan] Loaded device function vkCmdSetStencilReference
-[vulkan] Loaded device function vkCmdBindDescriptorSets
-[vulkan] Loaded device function vkCmdBindIndexBuffer
-[vulkan] Loaded device function vkCmdBindVertexBuffers
-[vulkan] Loaded device function vkCmdDraw
-[vulkan] Loaded device function vkCmdDrawIndexed
-[vulkan] Loaded device function vkCmdDrawIndirect
-[vulkan] Loaded device function vkCmdDrawIndexedIndirect
-[vulkan] Loaded device function vkCmdDispatch
-[vulkan] Loaded device function vkCmdDispatchIndirect
-[vulkan] Loaded device function vkCmdCopyBuffer
-[vulkan] Loaded device function vkCmdCopyImage
-[vulkan] Loaded device function vkCmdBlitImage
-[vulkan] Loaded device function vkCmdCopyBufferToImage
-[vulkan] Loaded device function vkCmdCopyImageToBuffer
-[vulkan] Loaded device function vkCmdUpdateBuffer
-[vulkan] Loaded device function vkCmdFillBuffer
-[vulkan] Loaded device function vkCmdClearColorImage
-[vulkan] Loaded device function vkCmdClearDepthStencilImage
-[vulkan] Loaded device function vkCmdClearAttachments
-[vulkan] Loaded device function vkCmdResolveImage
-[vulkan] Loaded device function vkCmdSetEvent
-[vulkan] Loaded device function vkCmdResetEvent
-[vulkan] Loaded device function vkCmdWaitEvents
-[vulkan] Loaded device function vkCmdPipelineBarrier
-[vulkan] Loaded device function vkCmdBeginQuery
-[vulkan] Loaded device function vkCmdEndQuery
-[vulkan] Loaded device function vkCmdResetQueryPool
-[vulkan] Loaded device function vkCmdWriteTimestamp
-[vulkan] Loaded device function vkCmdCopyQueryPoolResults
-[vulkan] Loaded device function vkCmdPushConstants
-[vulkan] Loaded device function vkCmdBeginRenderPass
-[vulkan] Loaded device function vkCmdNextSubpass
-[vulkan] Loaded device function vkCmdEndRenderPass
-[vulkan] Loaded device function vkCmdExecuteCommands
-[vulkan] Loaded device function vkGetImageMemoryRequirements2KHR
-[vulkan] Loaded device function vkGetBufferMemoryRequirements2KHR
-[vulkan] Loaded device function vkGetImageSparseMemoryRequirements2KHR
-[vulkan] Loaded device function vkCreateDescriptorUpdateTemplateKHR
-[vulkan] Loaded device function vkDestroyDescriptorUpdateTemplateKHR
-[vulkan] Loaded device function vkUpdateDescriptorSetWithTemplateKHR
-[vulkan] Loaded device function vkCmdBeginRenderPass2KHR
-[vulkan] Loaded device function vkCmdEndRenderPass2KHR
-[vulkan] Loaded device function vkCmdNextSubpass2KHR
-[vulkan] Loaded device function vkCreateRenderPass2KHR
-[vulkan] Loaded device function vkCmdSetVertexInputEXT
-[vulkan] Failed to load device function vkCmdSetFragmentShadingRateKHR
-[vulkan] Loaded instance function vkCmdSetFragmentShadingRateKHR
-[vulkan] Failed to load device function vkGetFramebufferTilePropertiesQCOM
-[vulkan] Loaded instance function vkGetFramebufferTilePropertiesQCOM
-[vulkan] Failed to load device function vkDebugMarkerSetObjectTagEXT
-[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
-[vulkan] Failed to load device function vkDebugMarkerSetObjectNameEXT
-[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
-[vulkan] Failed to load device function vkCmdDebugMarkerBeginEXT
-[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
-[vulkan] Failed to load device function vkCmdDebugMarkerEndEXT
-[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
-[vulkan] Failed to load device function vkCmdDebugMarkerInsertEXT
-[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
-Vulkan API version 1.1.0 (1.4.354 supported by driver, 1.1.0 requested)
-Vulkan vendor=[Intel] id=[8086]
-Vulkan renderer=[Intel(R) HD Graphics 530 (SKL GT2)] id=[191b]
-Vulkan device type 1
-Vulkan driverversion=[26.2.6 (0x06802006)] uint=[109060102]
-Vulkan driverLibraryString=[Intel open-source Mesa driver (6), Mesa 26.2.6-arch3.1]
-Vulkan PSO: Cache data successfully loaded [size=24455,path=/tmp/DefaultCompany/TIKTOK-GAME-OJT-AMAZING/vulkan_pso_cache.bin]
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/intern/19-11-26/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA RTX A5500 Laptop GPU (ID=0x2438)
+    Vendor:          NVIDIA
+    VRAM:            16173 MB
+    App VRAM Budget: 15405 MB
+    Driver:          32.0.15.9686
 Initialize mono
-Mono path[0] = '/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
-Mono path[1] = '/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = '/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
-Mono config path = '/home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56750
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /home/test/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.006335 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005912 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.017 seconds
-Domain Reload Profiling: 2496ms
-	BeginReloadAssembly (682ms)
-	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (210ms)
-	LoadAllAssembliesAndSetupDomain (559ms)
-		LoadAssemblies (683ms)
-		TypeCache.Refresh (376ms)
-			TypeCache.ScanAssembly (354ms)
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1495ms
+	BeginReloadAssembly (188ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (473ms)
+		LoadAssemblies (182ms)
+		TypeCache.Refresh (317ms)
+			TypeCache.ScanAssembly (297ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (1019ms)
+	FinalizeReload (703ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (343ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (388ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 18968544174790-UnityPersXXXX
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
@@ -659,142 +200,849 @@ Initializing Unity extensions:
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1879ms
-	BeginReloadAssembly (500ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (534ms)
-		LoadAssemblies (462ms)
-		TypeCache.Refresh (90ms)
-			TypeCache.ScanAssembly (71ms)
-		AnalyzeDomain (32ms)
-			BuildScriptInfoCaches (28ms)
-	FinalizeReload (708ms)
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1611ms
+	BeginReloadAssembly (360ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (358ms)
+		TypeCache.Refresh (69ms)
+			TypeCache.ScanAssembly (54ms)
+		AnalyzeDomain (25ms)
+			BuildScriptInfoCaches (20ms)
+	FinalizeReload (706ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (11ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Shader 'Custom/PlantWindSway': fallback shader 'Universal Render Pipeline/2D/Sprite-Unlit-Default' not found
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1514 unused Assets / (1.2 MB). Loaded Objects now: 2321.
-Memory consumption went from 158.5 MB to 157.4 MB.
-Total: 19.817698 ms (FindLiveObjects: 0.441886 ms CreateObjectMapping: 0.315389 ms MarkObjects: 17.086264 ms  DeleteObjects: 1.813686 ms)
+Unloading 1515 unused Assets / (370.9 KB). Loaded Objects now: 2293.
+Memory consumption went from 225.1 MB to 224.7 MB.
+Total: 4.457400 ms (FindLiveObjects: 0.311300 ms CreateObjectMapping: 0.063100 ms MarkObjects: 3.653300 ms  DeleteObjects: 0.300100 ms)
 
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1511 unused Assets / (0.5 MB). Loaded Objects now: 2322.
-Memory consumption went from 158.1 MB to 157.6 MB.
-Total: 81.620359 ms (FindLiveObjects: 2.481625 ms CreateObjectMapping: 0.376589 ms MarkObjects: 75.079473 ms  DeleteObjects: 2.253862 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+Curl error 35: Recv failure: Connection was reset
+Curl error 35: Recv failure: Connection was reset
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.862 seconds
-Domain Reload Profiling: 2276ms
-	BeginReloadAssembly (666ms)
-		DisableScriptedObjects (49ms)
-		CreateAndSetChildDomain (86ms)
-	RebuildCommonClasses (14ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (627ms)
-		LoadAssemblies (655ms)
-		TypeCache.Refresh (25ms)
-		AnalyzeDomain (68ms)
-			BuildScriptInfoCaches (60ms)
-	FinalizeReload (863ms)
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (311ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (316ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (5ms)
+	FinalizeReload (656ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (3ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (231ms)
-			ProcessInitializeOnLoadAttributes (187ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1514 unused Assets / (363.3 KB). Loaded Objects now: 2293.
+Memory consumption went from 226.7 MB to 226.4 MB.
+Total: 6.298800 ms (FindLiveObjects: 0.426200 ms CreateObjectMapping: 0.062400 ms MarkObjects: 5.255100 ms  DeleteObjects: 0.360400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1380ms
+	BeginReloadAssembly (293ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (302ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (5ms)
+	FinalizeReload (660ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1514 unused Assets / (299.3 KB). Loaded Objects now: 2293.
+Memory consumption went from 230.5 MB to 230.3 MB.
+Total: 4.893900 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.064000 ms MarkObjects: 3.952000 ms  DeleteObjects: 0.298100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1511 unused Assets / (0.5 MB). Loaded Objects now: 2293.
+Memory consumption went from 231.0 MB to 230.5 MB.
+Total: 7.559700 ms (FindLiveObjects: 0.461400 ms CreateObjectMapping: 0.089800 ms MarkObjects: 6.380400 ms  DeleteObjects: 0.424100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T07:52:29.9164842Z
+  Time since last request: 4146289.78820070018992 seconds.
+  importAddress: GUID: 39331eee183817ab0a4e1e7c975f9407 - Path: Assets/Scripts/FieldPlot.cs - Importer: PreviewImporter
+Importing 'GUID: 39331eee183817ab0a4e1e7c975f9407 - Path: Assets/Scripts/FieldPlot.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39331eee183817ab0a4e1e7c975f9407' -> (Import Result ID: '8f6d51cb2dc2620aab20e8f697629cd2') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=536576bdac9844204b1e9a745d74bb50 DependenciesID=ae4bf3192ca6a63d48113677ca396fea StaticDependenciesID=ecbe547dd8487b99a01a3fa7d7c06764 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1511 unused Assets / (0.5 MB). Loaded Objects now: 2295.
+Memory consumption went from 232.2 MB to 231.6 MB.
+Total: 6.865100 ms (FindLiveObjects: 0.480400 ms CreateObjectMapping: 0.087800 ms MarkObjects: 5.674700 ms  DeleteObjects: 0.409900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T07:52:46.7388542Z
+  Time since last request: 16.8112671 seconds.
+  importAddress: GUID: 39331eee183817ab0a4e1e7c975f9407 - Path: Assets/Scripts/FieldPlot.cs - Importer: PreviewImporter
+Importing 'GUID: 39331eee183817ab0a4e1e7c975f9407 - Path: Assets/Scripts/FieldPlot.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39331eee183817ab0a4e1e7c975f9407' -> (Import Result ID: '4981b266561a167ebd857b564f73afc4') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=536576bdac9844204b1e9a745d74bb50 DependenciesID=5432b6d81ae6da139054fca5da48c9f0 StaticDependenciesID=e5e9e7c657c735f958f8d19522ccb4ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1511 unused Assets / (0.5 MB). Loaded Objects now: 2295.
+Memory consumption went from 231.6 MB to 231.1 MB.
+Total: 7.459700 ms (FindLiveObjects: 0.481400 ms CreateObjectMapping: 0.079800 ms MarkObjects: 6.180300 ms  DeleteObjects: 0.504400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T07:54:36.4538473Z
+  Time since last request: 109.7115172 seconds.
+  importAddress: GUID: 39331eee183817ab0a4e1e7c975f9407 - Path: Assets/Scripts/FieldPlot.cs - Importer: PreviewImporter
+Importing 'GUID: 39331eee183817ab0a4e1e7c975f9407 - Path: Assets/Scripts/FieldPlot.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39331eee183817ab0a4e1e7c975f9407' -> (Import Result ID: '372890ee80d362f5f5376bc2bfe64608') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=536576bdac9844204b1e9a745d74bb50 DependenciesID=015520cb8976d3f47e841458e8f65112 StaticDependenciesID=86daf7e164b6acc3f7a9e7991ec3bc35 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 1435ms
+	BeginReloadAssembly (297ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (309ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (46ms)
+			BuildScriptInfoCaches (41ms)
+	FinalizeReload (658ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1514 unused Assets / (250.3 KB). Loaded Objects now: 2295.
+Memory consumption went from 235.4 MB to 235.1 MB.
+Total: 4.463000 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.069400 ms MarkObjects: 3.662500 ms  DeleteObjects: 0.270800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 1414ms
+	BeginReloadAssembly (298ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (314ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (674ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1514 unused Assets / (326.4 KB). Loaded Objects now: 2295.
+Memory consumption went from 237.9 MB to 237.6 MB.
+Total: 4.943300 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.088700 ms MarkObjects: 4.001400 ms  DeleteObjects: 0.381000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:18.0151508Z
+  Time since last request: 341.56013680000001 seconds.
+  importAddress: GUID: 24696b4a32d53bf2aa088bded255c6bf - Path: Assets/Sounds/OnEnoughPointsForASeed.wav - Importer: PreviewImporter
+Importing 'GUID: 24696b4a32d53bf2aa088bded255c6bf - Path: Assets/Sounds/OnEnoughPointsForASeed.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 24696b4a32d53bf2aa088bded255c6bf' -> (Import Result ID: 'c44d54c9ab64d7d6c1100f8ee083231c') in 0.108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4bf45c8d05f87b483f01918fefc5bac9 DependenciesID=0ad8ef731e39db78a3a19140c4b6c521 StaticDependenciesID=946312020c0e47aa1b7fb29b766e734f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.5520787Z
+  Time since last request: 1.4257247 seconds.
+  importAddress: GUID: fca1bcee740e5614190c4c0b1eddc009 - Path: Assets/Sprite/CleanEdge_tileset.png - Importer: PreviewImporter
+Importing 'GUID: fca1bcee740e5614190c4c0b1eddc009 - Path: Assets/Sprite/CleanEdge_tileset.png - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Imported 'GUID: fca1bcee740e5614190c4c0b1eddc009' -> (Import Result ID: 'f3988afabcdedb972fe69ec6ae8555d4') in 0.219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4cdebd48deb66eb41c0581883ba7104 DependenciesID=e84df6a8c93c566f874fa00799e02c51 StaticDependenciesID=bb763b65d16d4339c7c8f91792880755 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.7719187Z
+  Time since last request: 0.0003298 seconds.
+  importAddress: GUID: 383c86c48634eb848aa765ace6884a74 - Path: Assets/Sprite/Crop_Watermelon.png - Importer: PreviewImporter
+Importing 'GUID: 383c86c48634eb848aa765ace6884a74 - Path: Assets/Sprite/Crop_Watermelon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 383c86c48634eb848aa765ace6884a74' -> (Import Result ID: '2580cdc509741b70ef3d733c344cebdf') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f110f90d6a89d250a946d2a41a4967b DependenciesID=231481ef28dec193deb03f661c8c7ba9 StaticDependenciesID=9d73a5aab0188fee23f21866078c3053 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.8104721Z
+  Time since last request: 0.0004653 seconds.
+  importAddress: GUID: 3e1bea3dd14d3044c9f4f5c9a407d119 - Path: Assets/Sprite/Crop_Strawberry.png - Importer: PreviewImporter
+Importing 'GUID: 3e1bea3dd14d3044c9f4f5c9a407d119 - Path: Assets/Sprite/Crop_Strawberry.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3e1bea3dd14d3044c9f4f5c9a407d119' -> (Import Result ID: '997d017ff221907a8d54f35481a3a288') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d31f476620edda9a4b5f4bba6277496 DependenciesID=4a75dee7b2716bb931c168b7eebac603 StaticDependenciesID=ca5b009705183a1c97326062b9033fe9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.8442915Z
+  Time since last request: 0.0005722 seconds.
+  importAddress: GUID: 867381383f2eab349a3dc1ac933c2a86 - Path: Assets/Sprite/Crop_Radish.png - Importer: PreviewImporter
+Importing 'GUID: 867381383f2eab349a3dc1ac933c2a86 - Path: Assets/Sprite/Crop_Radish.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 867381383f2eab349a3dc1ac933c2a86' -> (Import Result ID: '283c9dbccc1ced4f1654b5dd6d24a45e') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d1cb54c98e8859c2ceae85189aa41b4 DependenciesID=f21bd02f5dad168eba31249af2c73f30 StaticDependenciesID=cffbfc007f07ef01f7f654d28dc04b54 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.8495712Z
+  Time since last request: 0.0006176 seconds.
+  importAddress: GUID: 2245b55c53756e93f91324c6efe97a5a - Path: Assets/Sprite/Nature_Mushrooms_Purple_02.png - Importer: PreviewImporter
+Importing 'GUID: 2245b55c53756e93f91324c6efe97a5a - Path: Assets/Sprite/Nature_Mushrooms_Purple_02.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2245b55c53756e93f91324c6efe97a5a' -> (Import Result ID: '29de53e4a63e68e1becd6e84b76ae9b0') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71f334e1404143e58e982fc17867949b DependenciesID=c03edadfc18cc63bb28c0b541a56aa4e StaticDependenciesID=3613028a420510da22f6b88dd8833365 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.8545796Z
+  Time since last request: 0.000493 seconds.
+  importAddress: GUID: c24324abea38611ba9493acce13ba655 - Path: Assets/Sprite/Nature_Mushrooms_Red_02.png - Importer: PreviewImporter
+Importing 'GUID: c24324abea38611ba9493acce13ba655 - Path: Assets/Sprite/Nature_Mushrooms_Red_02.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c24324abea38611ba9493acce13ba655' -> (Import Result ID: '14f23e1b89dbcab5923444bab8a02319') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a3f896d53a04232a704bbce3ef139b6 DependenciesID=4d135c46a0cf99632dc63154925aea23 StaticDependenciesID=30b9bc4fc23349f48462475911e660b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.8588481Z
+  Time since last request: 0.0005006 seconds.
+  importAddress: GUID: abaa86bc128656d4482da369ff084d52 - Path: Assets/Sprite/Crop_Tomato.png - Importer: PreviewImporter
+Importing 'GUID: abaa86bc128656d4482da369ff084d52 - Path: Assets/Sprite/Crop_Tomato.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: abaa86bc128656d4482da369ff084d52' -> (Import Result ID: '1f5b414f2ba0d7367ccf22669f8e4778') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adf246c38aee4a5264b91b856879da66 DependenciesID=0d6464cc4c4c4aa9ae898f2b01e17682 StaticDependenciesID=8e99b5c37f43963d58f0a17d66c30507 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:19.8643935Z
+  Time since last request: 0.0005338 seconds.
+  importAddress: GUID: 622a56cd49d97154aa17675d6066ddaf - Path: Assets/Sprite/Crop_Carrot.png - Importer: PreviewImporter
+Importing 'GUID: 622a56cd49d97154aa17675d6066ddaf - Path: Assets/Sprite/Crop_Carrot.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 622a56cd49d97154aa17675d6066ddaf' -> (Import Result ID: '95357f15127e62b93ca33a016e4f890b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32cdc5b38095eee8623291f039e24a94 DependenciesID=d3e87b37806fa7de7c4d3d22c5afe09c StaticDependenciesID=8f6126d97828f5170ec135bddba77df8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.4975908Z
+  Time since last request: 7.6284061 seconds.
+  importAddress: GUID: b1b17c61a6669ca4fa445101e0a204b7 - Path: Assets/Sprite/Palette/CleanEdge_tileset_1.asset - Importer: PreviewImporter
+Importing 'GUID: b1b17c61a6669ca4fa445101e0a204b7 - Path: Assets/Sprite/Palette/CleanEdge_tileset_1.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b1b17c61a6669ca4fa445101e0a204b7' -> (Import Result ID: '4f64e3d1b3b50be4ff9129e8ab924188') in 0.056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1df30479f76e8bcf4097c9e42e4a783a DependenciesID=74f337a23a73898d1e7fa917cdcc10bd StaticDependenciesID=1e5c34f2dfeb50f4ae5467fc142bcb9c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.554049Z
+  Time since last request: 0.0002832 seconds.
+  importAddress: GUID: d78064188653734449e88d987e7c44fa - Path: Assets/Sprite/Palette/CleanEdge_tileset_17.asset - Importer: PreviewImporter
+Importing 'GUID: d78064188653734449e88d987e7c44fa - Path: Assets/Sprite/Palette/CleanEdge_tileset_17.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d78064188653734449e88d987e7c44fa' -> (Import Result ID: 'd0fda82070fbd07baf6247f52e8001d2') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eede0df474c72342b2222ac609b2fdbd DependenciesID=a302334876ad561f97bac054bd94ba12 StaticDependenciesID=1e3b12929f00b9eae0636a0645158b39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.5647014Z
+  Time since last request: 0.000189 seconds.
+  importAddress: GUID: 16c29ec9c65525c4f9ffa3aa27deaee6 - Path: Assets/Sprite/Palette/CleanEdge_tileset_19.asset - Importer: PreviewImporter
+Importing 'GUID: 16c29ec9c65525c4f9ffa3aa27deaee6 - Path: Assets/Sprite/Palette/CleanEdge_tileset_19.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 16c29ec9c65525c4f9ffa3aa27deaee6' -> (Import Result ID: '1bb8790e97d73dd89352860bc63d922e') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5729ef2f44ccc2ceb58c08d22a8231c DependenciesID=a2ac656e823420a525687df41074eba9 StaticDependenciesID=80e2ddd5e3981d8c45235e71803fc063 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.5762673Z
+  Time since last request: 0.0001589 seconds.
+  importAddress: GUID: d09076bfb4b0c8f46939deba57968c30 - Path: Assets/Sprite/Palette/CleanEdge_tileset_20.asset - Importer: PreviewImporter
+Importing 'GUID: d09076bfb4b0c8f46939deba57968c30 - Path: Assets/Sprite/Palette/CleanEdge_tileset_20.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d09076bfb4b0c8f46939deba57968c30' -> (Import Result ID: '75ec6ef81247d2c26fc3e0223613a853') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef27eb3a2b67859cd80cf23d1803987f DependenciesID=ebebe809460072a5ab72717967b4754b StaticDependenciesID=5b6ab2860c27a54988dd6b55aff1bd15 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.5869918Z
+  Time since last request: 0.0003096 seconds.
+  importAddress: GUID: a40ec6fd260f4274c83b3b042ef162da - Path: Assets/Sprite/Palette/CleanEdge_tileset_13.asset - Importer: PreviewImporter
+Importing 'GUID: a40ec6fd260f4274c83b3b042ef162da - Path: Assets/Sprite/Palette/CleanEdge_tileset_13.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a40ec6fd260f4274c83b3b042ef162da' -> (Import Result ID: 'b9b676694c400b002dcd01884c9e2c83') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fee7bbc8f728b94a443f106ee4552e8f DependenciesID=dc9c96b3688bf45a31d87bc60a7e1ea8 StaticDependenciesID=2dadfbbd75621b5b1ed78386181cdf46 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.5997181Z
+  Time since last request: 0.0002395 seconds.
+  importAddress: GUID: 51c6f5a07b329ea46bca6249803f51ce - Path: Assets/Sprite/Palette/CleanEdge_tileset_10.asset - Importer: PreviewImporter
+Importing 'GUID: 51c6f5a07b329ea46bca6249803f51ce - Path: Assets/Sprite/Palette/CleanEdge_tileset_10.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 51c6f5a07b329ea46bca6249803f51ce' -> (Import Result ID: 'e707ad5459cd2f4cdef0e49c154bcd95') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08f464b341eceb37f0bb40e318af2ef7 DependenciesID=84614c776916cc7e61034b79667b76ce StaticDependenciesID=2b9c2ec2802f80d119b674bb8887193d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6145634Z
+  Time since last request: 0.0002581 seconds.
+  importAddress: GUID: 4cca882bb75459c469c9c9e671d73149 - Path: Assets/Sprite/Palette/CleanEdge_tileset_6.asset - Importer: PreviewImporter
+Importing 'GUID: 4cca882bb75459c469c9c9e671d73149 - Path: Assets/Sprite/Palette/CleanEdge_tileset_6.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4cca882bb75459c469c9c9e671d73149' -> (Import Result ID: '4c4f88570981a3e145d0e306507e6678') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f22e182c0faed373b9b46aa45a089328 DependenciesID=5674cbc3ee43216c331d80ec761b24e2 StaticDependenciesID=d3d444f5ad2ffb821f0ee362f3ef3442 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6280629Z
+  Time since last request: 0.0003199 seconds.
+  importAddress: GUID: cdaea4fd84f20eb45a6b76fca448b074 - Path: Assets/Sprite/Palette/CleanEdge_tileset_9.asset - Importer: PreviewImporter
+Importing 'GUID: cdaea4fd84f20eb45a6b76fca448b074 - Path: Assets/Sprite/Palette/CleanEdge_tileset_9.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cdaea4fd84f20eb45a6b76fca448b074' -> (Import Result ID: '4dd127372b197f4f369ab1e9999ab73b') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2ac0d551014b6e5d7a07bb2bb79132a DependenciesID=5f1520728ecc2d3dbcc500c1196b9d8d StaticDependenciesID=7f868462efac744cfe3c4f35743c95b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6340454Z
+  Time since last request: 0.0002577 seconds.
+  importAddress: GUID: cdbccd564c5e417439e51f41f20d0a53 - Path: Assets/Sprite/Palette/CleanEdge_tileset_24.asset - Importer: PreviewImporter
+Importing 'GUID: cdbccd564c5e417439e51f41f20d0a53 - Path: Assets/Sprite/Palette/CleanEdge_tileset_24.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cdbccd564c5e417439e51f41f20d0a53' -> (Import Result ID: '56a2b02eb84d3f1392a0449ce894d47e') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8dbc3bdec120a2895f3e5ebb3aba1ef0 DependenciesID=4cdb906327fa1bf89e3f6aeacafad081 StaticDependenciesID=c60771073acd8c97c0ead4b98239e981 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6433382Z
+  Time since last request: 0.0002783 seconds.
+  importAddress: GUID: 574b57901479451498aa989c0b2567f9 - Path: Assets/Sprite/Palette/CleanEdge_tileset_7.asset - Importer: PreviewImporter
+Importing 'GUID: 574b57901479451498aa989c0b2567f9 - Path: Assets/Sprite/Palette/CleanEdge_tileset_7.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 574b57901479451498aa989c0b2567f9' -> (Import Result ID: 'd57c4570390917271e1fe5daea551eb8') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45ce2a2d1f309446e8b7651fb302bf8e DependenciesID=d5c1cc54a8e46ab316e02b8e3904b9a0 StaticDependenciesID=452ab7e6b02359cb54fd05c1a9d58de9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6581833Z
+  Time since last request: 0.0002199 seconds.
+  importAddress: GUID: 041ca41fb4c389d429b14c434981bc92 - Path: Assets/Sprite/Palette/CleanEdge_tileset_21.asset - Importer: PreviewImporter
+Importing 'GUID: 041ca41fb4c389d429b14c434981bc92 - Path: Assets/Sprite/Palette/CleanEdge_tileset_21.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 041ca41fb4c389d429b14c434981bc92' -> (Import Result ID: '31ce5b04ca8f92315e3a7e3adfb355b8') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00313635489c39c6e26c7d32d1f5c757 DependenciesID=25577801eccc8954c4916418b8e0de5b StaticDependenciesID=f51b7bf0189c7ff4a89ce7639c0b34f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6677068Z
+  Time since last request: 0.000255 seconds.
+  importAddress: GUID: 4adf7a2e59fa9f2438e3a745a6b5e9d5 - Path: Assets/Sprite/Palette/CleanEdge_tileset_23.asset - Importer: PreviewImporter
+Importing 'GUID: 4adf7a2e59fa9f2438e3a745a6b5e9d5 - Path: Assets/Sprite/Palette/CleanEdge_tileset_23.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4adf7a2e59fa9f2438e3a745a6b5e9d5' -> (Import Result ID: '0db04ac8fea47c8697782ec949aea0b8') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cbeac7f9b2c0042b61ffd75a9cfca58 DependenciesID=983bccdfde85fa0e984f51cbe3682893 StaticDependenciesID=ba44d5acc998040f0526e23695d0f0d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6757891Z
+  Time since last request: 0.0002009 seconds.
+  importAddress: GUID: 30fc844727da4a747aec530e8ec88113 - Path: Assets/Sprite/Palette/CleanEdge_tileset_16.asset - Importer: PreviewImporter
+Importing 'GUID: 30fc844727da4a747aec530e8ec88113 - Path: Assets/Sprite/Palette/CleanEdge_tileset_16.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 30fc844727da4a747aec530e8ec88113' -> (Import Result ID: '68844c6f758138fe02c27fb9065be5ab') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14b4254e42093d4c9c70f9686b618850 DependenciesID=4c2a3b59eec0d19d0ee1afaaaed94ab3 StaticDependenciesID=30e612b4119b4f24763dc8bb4178bd56 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.6895724Z
+  Time since last request: 0.0002284 seconds.
+  importAddress: GUID: 4b2469ef637e1694e90ea03d4f15c900 - Path: Assets/Sprite/Palette/CleanEdge_tileset_15.asset - Importer: PreviewImporter
+Importing 'GUID: 4b2469ef637e1694e90ea03d4f15c900 - Path: Assets/Sprite/Palette/CleanEdge_tileset_15.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b2469ef637e1694e90ea03d4f15c900' -> (Import Result ID: 'd8facf63b270df80765d47fc88637d7a') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abf932f0d6cd85eaf5b37a4bcd8b6244 DependenciesID=bcb1a4581d3df03c4e9e6b7a16976e1b StaticDependenciesID=03d2c2a4d4ea6890d8b1e0196b52548f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:00:27.7061522Z
+  Time since last request: 0.000233 seconds.
+  importAddress: GUID: 1656bf43a22cdd949a9dfac83a84bcc6 - Path: Assets/Sprite/Palette/CleanEdge_tileset_12.asset - Importer: PreviewImporter
+Importing 'GUID: 1656bf43a22cdd949a9dfac83a84bcc6 - Path: Assets/Sprite/Palette/CleanEdge_tileset_12.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1656bf43a22cdd949a9dfac83a84bcc6' -> (Import Result ID: '2e7209f91d893cb51c74c1a36ee88693') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7517218fe822fc2fc799b14f448a9fbb DependenciesID=ecd38f3031c2f67a02d6c29fafe80d44 StaticDependenciesID=fb621dbfb34bf20780e67ff62467a6af 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (40.2 KB). Loaded Objects now: 2320.
+Memory consumption went from 240.5 MB to 240.5 MB.
+Total: 6.840000 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.039000 ms MarkObjects: 6.134200 ms  DeleteObjects: 0.073000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:07:49.5642358Z
+  Time since last request: 441.81330329999997 seconds.
+  importAddress: GUID: b01b6f29c2e1162418f0569234d6e95a - Path: Assets/Sprite/Dirt_Grass_Tileset.png - Importer: PreviewImporter
+Importing 'GUID: b01b6f29c2e1162418f0569234d6e95a - Path: Assets/Sprite/Dirt_Grass_Tileset.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b01b6f29c2e1162418f0569234d6e95a' -> (Import Result ID: '218f6b64e477ee5644d7fd0cecf12c6a') in 0.152 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3aac8bde9cbaeebd5475288d99f09325 DependenciesID=556bc280fd10d99c76e376371d7f8670 StaticDependenciesID=69f3b2641fb9b973fe25f2027ad3b864 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:42:34.3370401Z
+  Time since last request: 2084.62065870000015 seconds.
+  importAddress: GUID: b01b6f29c2e1162418f0569234d6e95a - Path: Assets/Sprite/Dirt_Grass_Tileset.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b01b6f29c2e1162418f0569234d6e95a - Path: Assets/Sprite/Dirt_Grass_Tileset.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b01b6f29c2e1162418f0569234d6e95a' -> (Import Result ID: '581a7c923b72ba99d2f443bfcafb4486') in 0.135 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3dc8cec1428918902d689b09aa8062b DependenciesID=6030fa1f7fca5731f7ad51aeb7ade476 StaticDependenciesID=e6129daff13d9e98865d915f3e41e592 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 2202ms
+	BeginReloadAssembly (418ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (82ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (861ms)
+		LoadAssemblies (961ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (5ms)
+	FinalizeReload (757ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (13ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1514 unused Assets / (365.9 KB). Loaded Objects now: 2322.
-Memory consumption went from 159.1 MB to 158.7 MB.
-Total: 9.789705 ms (FindLiveObjects: 0.525141 ms CreateObjectMapping: 0.177457 ms MarkObjects: 8.494065 ms  DeleteObjects: 0.452805 ms)
+Unloading 1514 unused Assets / (495.7 KB). Loaded Objects now: 2319.
+Memory consumption went from 242.7 MB to 242.3 MB.
+Total: 6.756700 ms (FindLiveObjects: 0.532400 ms CreateObjectMapping: 0.068700 ms MarkObjects: 5.496100 ms  DeleteObjects: 0.435000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (35.4 KB). Loaded Objects now: 2319.
+Memory consumption went from 242.2 MB to 242.1 MB.
+Total: 4.778400 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.026000 ms MarkObjects: 4.274100 ms  DeleteObjects: 0.062800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:55:36.2603493Z
+  Time since last request: 781.78710699999999 seconds.
+  importAddress: GUID: b01b6f29c2e1162418f0569234d6e95a - Path: Assets/Sprite/Dirt_Grass_Tileset.png - Importer: PreviewImporter
+Importing 'GUID: b01b6f29c2e1162418f0569234d6e95a - Path: Assets/Sprite/Dirt_Grass_Tileset.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b01b6f29c2e1162418f0569234d6e95a' -> (Import Result ID: 'fe25a5adfad5880be67ad0e7ed2e1b56') in 0.088 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c550d748c74346a12ff0831165e0914 DependenciesID=7a62b20cf1400da057b1d24319336dfa StaticDependenciesID=ab47dcfec58cf5912812e432cbed14da 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (35.4 KB). Loaded Objects now: 2321.
+Memory consumption went from 242.2 MB to 242.2 MB.
+Total: 4.936500 ms (FindLiveObjects: 0.310200 ms CreateObjectMapping: 0.030000 ms MarkObjects: 4.339700 ms  DeleteObjects: 0.071200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:24.6378358Z
+  Time since last request: 168.28791889999999 seconds.
+  importAddress: GUID: 6d0229102d0c7d044bf8acb32fa3be92 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_15.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6d0229102d0c7d044bf8acb32fa3be92 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_15.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6d0229102d0c7d044bf8acb32fa3be92' -> (Import Result ID: 'e6957f922d8c9bcce909bbe57d38c42c') in 0.127 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f1c3dcfdaec1c16a9fba69d2143dc4a DependenciesID=2573767668d4347461542d377991a224 StaticDependenciesID=4e875bc091590a5f6464c769b2793a10 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.4728308Z
+  Time since last request: 33.7072135 seconds.
+  importAddress: GUID: f290b14d48d1e6849a002c07ba2cb2bb - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_1.asset - Importer: PreviewImporter
+Importing 'GUID: f290b14d48d1e6849a002c07ba2cb2bb - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_1.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f290b14d48d1e6849a002c07ba2cb2bb' -> (Import Result ID: '402dfaf85814fd9a446afcaf5b75082b') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18a49f000aca716720f12f91b6942a9e DependenciesID=fe56b2902a295f7ebe6d1c2ff73519e2 StaticDependenciesID=b411252147d17bbf1beab66fdf653e42 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.4916056Z
+  Time since last request: 0.0004436 seconds.
+  importAddress: GUID: c761e83428a2a5a4aa56d9e83fa5bf16 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_13.asset - Importer: PreviewImporter
+Importing 'GUID: c761e83428a2a5a4aa56d9e83fa5bf16 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_13.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c761e83428a2a5a4aa56d9e83fa5bf16' -> (Import Result ID: '3b06f84df2872e4b1879ddaf1f126df1') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8145fe71e83579bd33d1894465b97899 DependenciesID=85d3ed1478401bf75cf85a457b92c6ba StaticDependenciesID=180ee91b9f50d057150997be5764dd4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.5109722Z
+  Time since last request: 0.0002609 seconds.
+  importAddress: GUID: 523fbae1abbcc004cafa7d17c4751830 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_7.asset - Importer: PreviewImporter
+Importing 'GUID: 523fbae1abbcc004cafa7d17c4751830 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_7.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 523fbae1abbcc004cafa7d17c4751830' -> (Import Result ID: '58702f00421aee99b43faaae78014244') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7d7ee1000afaf7270160517af7e3843 DependenciesID=961498cc48cb56c7b42733848d88b230 StaticDependenciesID=2e711a2bcd0059dd64ae462772482bdb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.5323502Z
+  Time since last request: 0.000189 seconds.
+  importAddress: GUID: 155c62e5153490f44bf28c03d9ae6f61 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_24.asset - Importer: PreviewImporter
+Importing 'GUID: 155c62e5153490f44bf28c03d9ae6f61 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_24.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 155c62e5153490f44bf28c03d9ae6f61' -> (Import Result ID: 'ca4fb9465f3653806efa3fabf8400b95') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=318952130dde2140412e875b60056fe2 DependenciesID=03d3d496392d14f1d74e95afb143ab89 StaticDependenciesID=0b02032b670d331cd39c527d6e5dcce5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.543808Z
+  Time since last request: 0.0001318 seconds.
+  importAddress: GUID: d8ab9156443b6194ead349142e7b183b - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_5.asset - Importer: PreviewImporter
+Importing 'GUID: d8ab9156443b6194ead349142e7b183b - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_5.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d8ab9156443b6194ead349142e7b183b' -> (Import Result ID: '624587fb4898a56a1bbe029ed1391de7') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbd618062e782b65df969133e39283d0 DependenciesID=2482bb6f74a8c9837306ac7b3b60907f StaticDependenciesID=f9e3a7587b7a4aeb12e24bef4b5a4e65 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.5619937Z
+  Time since last request: 0.000257 seconds.
+  importAddress: GUID: 538503e9394e8984cbe9435931f38d90 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_22.asset - Importer: PreviewImporter
+Importing 'GUID: 538503e9394e8984cbe9435931f38d90 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_22.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 538503e9394e8984cbe9435931f38d90' -> (Import Result ID: '61c02aa1b151ec9fad144e36a53cdea7') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=698345cfd068a800a0ac63466429009b DependenciesID=a77a61095c5faf7cbaa7696ac7014878 StaticDependenciesID=ad4e44e8d70ad5db9f7818a7b94f483a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.5775493Z
+  Time since last request: 0.0002326 seconds.
+  importAddress: GUID: 0d2708f16adb5b744887d405056d5cdc - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_12.asset - Importer: PreviewImporter
+Importing 'GUID: 0d2708f16adb5b744887d405056d5cdc - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_12.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0d2708f16adb5b744887d405056d5cdc' -> (Import Result ID: '6263160f46beb841026ee3a2ed4d594a') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7cce87879214d0495769130c5302db73 DependenciesID=3a0311c549a0eefe35f605a2796a91bf StaticDependenciesID=2fc77721f137cfea8b3991a440b7548f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.5895452Z
+  Time since last request: 0.0002185 seconds.
+  importAddress: GUID: fbc97927d02d67744bb9b99437c3bf15 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_6.asset - Importer: PreviewImporter
+Importing 'GUID: fbc97927d02d67744bb9b99437c3bf15 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_6.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fbc97927d02d67744bb9b99437c3bf15' -> (Import Result ID: '39f07446982a4546ef28ec277328b21b') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1242a5301ebb008c527770ea631b95bd DependenciesID=4a8ac32d4a5278331f926512d20ae095 StaticDependenciesID=f7db94a031c7779c0f9c10829f0e58b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6016155Z
+  Time since last request: 0.0002654 seconds.
+  importAddress: GUID: fba9237d6cbedce47abc8ebe839c0811 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_18.asset - Importer: PreviewImporter
+Importing 'GUID: fba9237d6cbedce47abc8ebe839c0811 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_18.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fba9237d6cbedce47abc8ebe839c0811' -> (Import Result ID: '10d0d359443b3046f01bf94ada6db0c7') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=338c453064b457004a0f2bfedd064a5b DependenciesID=1ccf5cb00fb7f39a4a88fe3ffe4203a7 StaticDependenciesID=63936f527029097e06ab09849de129aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6114906Z
+  Time since last request: 0.0002955 seconds.
+  importAddress: GUID: dd0336bf8d0a622479f26e1564d396b8 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_11.asset - Importer: PreviewImporter
+Importing 'GUID: dd0336bf8d0a622479f26e1564d396b8 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_11.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd0336bf8d0a622479f26e1564d396b8' -> (Import Result ID: '875bc3d366f7fee820bbbf8b70f4dc5d') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63875020a0e91d2bdda495a9c1e58ec1 DependenciesID=61dd63a78e4b48280e02f3b494c578e6 StaticDependenciesID=bc3753df5d4a0bb99fcb85e65dfdf035 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6249427Z
+  Time since last request: 0.0002344 seconds.
+  importAddress: GUID: 8c0c3ce3cea203f42bbb1ef8fa97692e - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_8.asset - Importer: PreviewImporter
+Importing 'GUID: 8c0c3ce3cea203f42bbb1ef8fa97692e - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_8.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c0c3ce3cea203f42bbb1ef8fa97692e' -> (Import Result ID: '0c35cc0c00af19d18f70d70cbec30a5c') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f01f6da0d89670b740eb2ccc2b922fa3 DependenciesID=cc5faf8f4d74471f9e7af348bc9adfb5 StaticDependenciesID=9936dabebd8369984cc3c1d085eadb8f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6564339Z
+  Time since last request: 0.0003647 seconds.
+  importAddress: GUID: cf138861c29515942a15c0b6e5e51302 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_10.asset - Importer: PreviewImporter
+Importing 'GUID: cf138861c29515942a15c0b6e5e51302 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_10.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf138861c29515942a15c0b6e5e51302' -> (Import Result ID: '20133bc5828b79aa47d5376b1bc2e2a4') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2099b7d5baffb21d2182c968a5c5fccf DependenciesID=8daf36dd5bf8814da0770952f31c041b StaticDependenciesID=11d50a5bf43ae57053fe3c82009b101f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6775309Z
+  Time since last request: 0.0002825 seconds.
+  importAddress: GUID: 2ec22ddca7c8afe469566d3df220ae24 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_16.asset - Importer: PreviewImporter
+Importing 'GUID: 2ec22ddca7c8afe469566d3df220ae24 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_16.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2ec22ddca7c8afe469566d3df220ae24' -> (Import Result ID: 'ad2b1dbcee52af333869cda4daeec8c5') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4dd96ad01b7c60e126f0e804e165378 DependenciesID=5c16579832d915eaa786989f47f01ff5 StaticDependenciesID=feb124d7d476dc29bd09d473e7a836f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6879091Z
+  Time since last request: 0.0003287 seconds.
+  importAddress: GUID: 2cb7236c9ab06da4380e67e4188f9bd9 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_23.asset - Importer: PreviewImporter
+Importing 'GUID: 2cb7236c9ab06da4380e67e4188f9bd9 - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_23.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2cb7236c9ab06da4380e67e4188f9bd9' -> (Import Result ID: '7169feaa86b8968c789623d9fd7eafa1') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=368dbb1ac962d41ae156df347a765728 DependenciesID=e906d64e4549dda3c86a9e779d32f05d StaticDependenciesID=c1b569e2f516ab448145b6c6775feb0a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T08:58:58.6995523Z
+  Time since last request: 0.0003558 seconds.
+  importAddress: GUID: 09ffd73b1f5259e47a0c0b89efed3e0f - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_20.asset - Importer: PreviewImporter
+Importing 'GUID: 09ffd73b1f5259e47a0c0b89efed3e0f - Path: Assets/Sprite/Palette/Dirt_Grass_Tileset_20.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 09ffd73b1f5259e47a0c0b89efed3e0f' -> (Import Result ID: 'a684cdd2a0f8d2e16e47b1d73d478279') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc8204f68e42e93333f56481d4be3914 DependenciesID=eb7c927864e7f527874a7d407017c7b6 StaticDependenciesID=22ff452929b4183284069e7163dead5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (40.2 KB). Loaded Objects now: 2322.
+Memory consumption went from 244.6 MB to 244.6 MB.
+Total: 6.641400 ms (FindLiveObjects: 0.315600 ms CreateObjectMapping: 0.028800 ms MarkObjects: 6.012900 ms  DeleteObjects: 0.089800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-19T09:03:08.2642147Z
+  Time since last request: 249.544039 seconds.
+  importAddress: GUID: 00dca1751eddd264bae3db157cc73ee2 - Path: Assets/Sprite/Palette/Grass with Soil.prefab - Importer: PreviewImporter
+Importing 'GUID: 00dca1751eddd264bae3db157cc73ee2 - Path: Assets/Sprite/Palette/Grass with Soil.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00dca1751eddd264bae3db157cc73ee2' -> (Import Result ID: '03d97dc4162d891606adadd4b927b783') in 0.082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24f5ad127a59cfc60abb54c8168a39a3 DependenciesID=a444f5d5cb1e2466200266d7ad1399cc StaticDependenciesID=7b9cde4219ac06bcccdfb427cbe8be1f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-P4NF-BM3Z-ZQZ6-JVBB-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T08:47:21Z
+[Licensing::Module] License group:
+  Id: 18968517178691-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.113 seconds
-Domain Reload Profiling: 2923ms
-	BeginReloadAssembly (950ms)
-		DisableScriptedObjects (76ms)
-		CreateAndSetChildDomain (181ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (718ms)
-		LoadAssemblies (747ms)
-		TypeCache.Refresh (21ms)
-		AnalyzeDomain (96ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1115ms)
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1395ms
+	BeginReloadAssembly (294ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (312ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (663ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			BeforeProcessingInitializeOnLoad (297ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (11ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1514 unused Assets / (0.5 MB). Loaded Objects now: 2322.
-Memory consumption went from 159.5 MB to 159.0 MB.
-Total: 13.976539 ms (FindLiveObjects: 0.483901 ms CreateObjectMapping: 0.256745 ms MarkObjects: 12.118605 ms  DeleteObjects: 0.960323 ms)
+Unloading 1514 unused Assets / (421.7 KB). Loaded Objects now: 2321.
+Memory consumption went from 246.8 MB to 246.4 MB.
+Total: 6.729200 ms (FindLiveObjects: 0.463400 ms CreateObjectMapping: 0.065900 ms MarkObjects: 5.584900 ms  DeleteObjects: 0.412900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (27.8 KB). Loaded Objects now: 2322.
-Memory consumption went from 158.9 MB to 158.9 MB.
-Total: 9.630450 ms (FindLiveObjects: 0.341424 ms CreateObjectMapping: 0.057446 ms MarkObjects: 8.928227 ms  DeleteObjects: 0.110214 ms)
+Unloading 1 unused Assets / (35.4 KB). Loaded Objects now: 2321.
+Memory consumption went from 246.2 MB to 246.2 MB.
+Total: 4.824600 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.030600 ms MarkObjects: 4.270700 ms  DeleteObjects: 0.053300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

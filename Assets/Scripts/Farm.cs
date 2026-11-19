@@ -23,9 +23,9 @@ public class Farm : MonoBehaviour
     public int totalHarvested = 0;
     public int totalScore = 0;
 
-    public int[] harvestedCropCounts;
+    private int[] harvestedCropCounts;
 
-    public string[] cropNames =
+    private string[] cropNames =
     {
         "WhiteFlower",
         "PurpleFlower",
@@ -198,12 +198,6 @@ public class Farm : MonoBehaviour
 
     void UpdateStatsUI()
     {
-        // Update modern Casual UI if available
-        if (FarmUIManager.Instance != null)
-        {
-            FarmUIManager.Instance.UpdateUI(totalScore, totalHarvested, harvestedCropCounts, cropNames);
-        }
-
         // Update harvested statistics
         if (statsText != null)
         {

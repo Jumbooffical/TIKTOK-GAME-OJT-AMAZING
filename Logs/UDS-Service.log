@@ -1,31 +1,23 @@
 
 Server arguments:
   --memory-size 1073741824
-  --shared-postfix b2774d34a14bc7149ccc5e3f6acc9ac8
+  --shared-postfix b6f597eb7f0e8a1173312d197530b507
   --working-directory Library/DataStore
   --silent-console
   --shutdown-grace 0
   --client-process-check 0
-  --uds-log-file /media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Logs/UDS-Service.log
+  --uds-log-file D:/intern/19-11-26/Logs/UDS-Service.log
   --debug-log 2
+  -name
+  Unity.DataStore
 
 Initialising UDS system complete:
   - System type: Service
-  - Resource namespace: b2774d34a14bc7149ccc5e3f6acc9ac8
+  - Resource namespace: b6f597eb7f0e8a1173312d197530b507
   - Shared memory size: 1073741824
-  - Command buffer id: 1052624
+  - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
 Starting Unity Data Store Application
-[Error] Failed to remove data for hash 6fd6a6ae5d598cc5196a44eea419226c. Failure received from service
- #2 print_call_stack(int)
- #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
- #4 uds_process_command(uds_system_t*, uds_command_t*)
- #5 uds::ServiceCommandListener::ProcessNextCommand()
- #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
- #7 uds::Service::ExecuteServiceLoop()
- #8 main
- #9 ???
- #10 __libc_start_main
- #11 _start
-
+Unity Data Store Application Complete
+Shut down UDS service system complete
