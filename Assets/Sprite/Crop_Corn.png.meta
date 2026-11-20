@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -98,6 +98,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -105,10 +118,10 @@ TextureImporter:
       name: Crop_Corn_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 7
-        width: 67
-        height: 97
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 51a7ea4d6cacf49faabb1e11b3cb39a3
     internalID: 0
     vertices: []
     indices: 
@@ -138,6 +151,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Crop_Corn_0: -2306721127977986036
+      Crop_Corn_1: 990998229
+      Crop_Corn_2: -640410372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
