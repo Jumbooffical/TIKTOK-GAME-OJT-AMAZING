@@ -7,6 +7,7 @@ const { WebSocketServer } = require('ws');
 // Change 'your_tiktok_username' to your username
 const USERNAME = process.argv[2] || 'your_tiktok_username';
 
+const connection = new TikTokLiveConnection(USERNAME, {});
 const wss = new WebSocketServer({ port: 8080 });
 
 function send(obj) {
@@ -17,17 +18,25 @@ function send(obj) {
 }
 
 // the 2.x payload may nest the user: d.user.uniqueId instead of d.uniqueId
-const who = d => (d.user && d.user.uniqueId) || d.uniqueId || 'unknown';
-
-const connection = new TikTokLiveConnection(USERNAME);
+const who = d =>
+    d.user?.nickname ||
+    d.user?.uniqueId ||
+    d.nickname ||
+    d.uniqueId ||
+    'unknown';
 
 connection.connect()
 	.then(state => console.log('Connected to room', state.roomId))
 	.catch(err => console.error('Failed to connect:', err));
 
 connection.on(WebcastEvent.CHAT, d => {
-	console.log('chat', who(d), d.comment);
-	send({ type: 'chat', user: who(d), comment: d.comment });
+	const comment =
+        d.comment ??
+        d.content ??
+        d.text ??
+        '';
+	console.log('chat', who(d), comment);
+	send({ type: 'chat', user: who(d), comment: comment });
 });
 
 connection.on(WebcastEvent.LIKE, d => {

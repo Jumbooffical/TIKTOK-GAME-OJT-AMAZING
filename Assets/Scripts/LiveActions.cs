@@ -29,6 +29,8 @@ public class LiveActions : MonoBehaviour
 		switch (text)
 		{
 			case "plant":
+				break;
+			default:
                 Debug.Log("Planted plant!");
                 farmTester.PlantInNextEmptyPlot();
 				SfxManager.Instance.PlayPlanting();
