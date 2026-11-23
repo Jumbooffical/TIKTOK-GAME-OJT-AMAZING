@@ -24,18 +24,6 @@ public class LiveActions : MonoBehaviour
 
 	void HandleChat(LiveEvent e)
 	{
-		string text = e.comment.Trim().ToLowerInvariant();
-
-		switch (text)
-		{
-			case "plant":
-				break;
-			default:
-                Debug.Log("Planted plant!");
-                farmTester.PlantInNextEmptyPlot();
-				SfxManager.Instance.PlayPlanting();
-                break;
-		}
 	}
 
 	void HandleGift(LiveEvent e)
@@ -43,12 +31,12 @@ public class LiveActions : MonoBehaviour
 		// by gift name; names depend on the language and can change
 		switch (e.gift)
 		{
-			case "Rose":     Debug.Log("Rose gift"); break;
-			case "TikTok":   Debug.Log("TikTok gift"); break;
-			case "Universe": Debug.Log("Universe gift"); break;
 			default:
 				// or fall back to value: bigger gifts, bigger effect
-				Debug.Log("Gift worth " + (e.diamonds * e.count) + " diamonds");
+				Debug.Log(e.username + " gave gift worth " + (e.diamonds * e.count) + " diamonds");
+                Debug.Log("Planted plant!");
+                farmTester.PlantInNextEmptyPlot();
+				SfxManager.Instance.PlayPlanting();
 				break;
 		}
 	}
@@ -67,6 +55,6 @@ public class LiveActions : MonoBehaviour
 
 	void HandleFollow(LiveEvent e)
 	{
-		Debug.Log("New follower: " + e.user);
+		Debug.Log("New follower: " + e.username);
 	}
 }

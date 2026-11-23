@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TikTok Live Dashboard</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --surface2: #242424;
+      --border: #2e2e2e;
+      --accent: #fe2c55;
+      --accent2: #25f4ee;
+      --text: #f1f1f1;
+      --muted: #888;
+      --gift: #ffd700;
+      --like: #ff6b81;
+      --join: #69db7c;
+      --comment: #74c0fc;
+      --radius: 10px;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      white-space: nowrap;
+    }
+    .connect-bar {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex: 1;
+    }
+    .connect-bar input {
+      flex: 1;
+      max-width: 280px;
+      padding: 9px 14px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 14px;
+      outline: none;
+      transition: border-color .2s;
+    }
+    .connect-bar input:focus { border-color: var(--accent2); }
+    .btn {
+      padding: 9px 20px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      transition: opacity .2s, transform .1s;
+    }
+    .btn:active { transform: scale(.97); }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-secondary { background: var(--surface2); color: var(--muted); border: 1px solid var(--border); }
+    .btn:disabled { opacity: .45; cursor: not-allowed; }
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--muted);
+      margin-left: auto;
+      white-space: nowrap;
+    }
+    .dot {
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      background: var(--muted);
+    }
+    .dot.live { background: var(--accent); animation: pulse 1.4s infinite; }
+    @keyframes pulse {
+      0%,100% { opacity: 1; } 50% { opacity: .35; }
+    }
+
+    /* ── Stats Row ── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      padding: 16px 24px 0;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      text-align: center;
+    }
+    .stat-card .label { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+    .stat-card .value { font-size: 28px; font-weight: 800; }
+    .stat-card.comments .value { color: var(--comment); }
+    .stat-card.likes    .value { color: var(--like); }
+    .stat-card.gifts    .value { color: var(--gift); }
+    .stat-card.joins    .value { color: var(--join); }
+
+    /* ── Main Layout ── */
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 16px;
+      padding: 16px 24px 24px;
+    }
+
+    /* ── Left Panel ── */
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface2);
+    }
+    .tab {
+      padding: 10px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--muted);
+      border-bottom: 2px solid transparent;
+      transition: color .2s, border-color .2s;
+      white-space: nowrap;
+    }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent2); }
+    .tab:hover:not(.active) { color: var(--text); }
+
+    /* Tab content */
+    .tab-content { display: none; flex: 1; overflow: hidden; flex-direction: column; }
+    .tab-content.active { display: flex; }
+
+    /* Feed (Realtime) */
+    .feed {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .feed-item {
+      padding: 8px 10px;
+      border-radius: 7px;
+      background: var(--surface2);
+      font-size: 13px;
+      line-height: 1.5;
+      border-left: 3px solid transparent;
+      animation: fadeIn .25s ease;
+    }
+    @keyframes fadeIn { from { opacity:0; transform:translateY(4px); } to { opacity:1; } }
+    .feed-item.comment { border-left-color: var(--comment); }
+    .feed-item.gift    { border-left-color: var(--gift); }
+    .feed-item.like    { border-left-color: var(--like); }
+    .feed-item.join    { border-left-color: var(--join); }
+    .feed-item .time   { color: var(--muted); font-size: 11px; float: right; margin-left: 8px; }
+    .feed-item .nick   { font-weight: 700; }
+    .nick.c { color: var(--comment); }
+    .nick.g { color: var(--gift); }
+    .nick.j { color: var(--join); }
+    .nick.l { color: var(--like); }
+
+    /* Table tabs (gifts, joins, history) */
+    .tbl-wrap { flex: 1; overflow-y: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    thead th {
+      position: sticky; top: 0;
+      background: var(--surface2);
+      padding: 10px 12px;
+      text-align: left;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    tbody tr:hover { background: var(--surface2); }
+    tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .badge.diamond { background: #2d2000; color: var(--gift); }
+    .badge.total   { background: #1a2500; color: #a9e34b; }
+
+    /* History tab */
+    .history-select {
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .history-select select {
+      width: 100%;
+      padding: 8px 12px;
+      border-radius: 7px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 13px;
+    }
+    .history-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .hs-card { background: var(--surface2); border-radius: 7px; padding: 8px; text-align: center; }
+    .hs-card .hs-val { font-size: 20px; font-weight: 800; color: var(--accent2); }
+    .hs-card .hs-lbl { font-size: 11px; color: var(--muted); }
+
+    /* ── Right Panel (Top Gifters) ── */
+    .right-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .gifters-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      flex: 1;
+    }
+    .panel-title {
+      padding: 12px 16px;
+      font-weight: 700;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface2);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .gifter-list { overflow-y: auto; max-height: 480px; }
+    .gifter-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      transition: background .15s;
+    }
+    .gifter-item:hover { background: var(--surface2); }
+    .gifter-rank {
+      font-size: 16px;
+      font-weight: 800;
+      width: 24px;
+      text-align: center;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .gifter-rank.r1 { color: #ffd700; }
+    .gifter-rank.r2 { color: #c0c0c0; }
+    .gifter-rank.r3 { color: #cd7f32; }
+    .gifter-info { flex: 1; min-width: 0; }
+    .gifter-nick { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .gifter-sub  { font-size: 11px; color: var(--muted); }
+    .gifter-diamonds { font-size: 14px; font-weight: 800; color: var(--gift); white-space: nowrap; }
+
+    /* Log panel */
+    .log-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .log-body {
+      padding: 10px 12px;
+      font-size: 11px;
+      font-family: monospace;
+      color: var(--muted);
+      max-height: 110px;
+      overflow-y: auto;
+    }
+    .log-line { margin-bottom: 2px; }
+    .log-line.err { color: #ff6b6b; }
+    .log-line.ok  { color: var(--join); }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
+      .main { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .connect-bar input { max-width: 160px; }
+    }
+
+    /* Empty state */
+    .empty {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex: 1;
+      color: var(--muted);
+      font-size: 14px;
+      padding: 40px;
+      text-align: center;
+    }
+    .empty .icon { font-size: 36px; }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="logo">🎵 TikTok Live</div>
+  <div class="connect-bar">
+    <input id="inp-username" type="text" placeholder="@username hoặc username" />
+    <button class="btn btn-primary" id="btn-connect">▶ Kết nối</button>
+    <button class="btn btn-secondary" id="btn-disconnect" disabled>⏹ Dừng</button>
+  </div>
+  <div class="status-badge">
+    <div class="dot" id="status-dot"></div>
+    <span id="status-text">Chưa kết nối</span>
+  </div>
+</header>
+
+<!-- ── STATS ── -->
+<div class="stats-row">
+  <div class="stat-card comments">
+    <div class="label">💬 Bình luận</div>
+    <div class="value" id="stat-comments">0</div>
+  </div>
+  <div class="stat-card likes">
+    <div class="label">❤️ Thả tim</div>
+    <div class="value" id="stat-likes">0</div>
+  </div>
+  <div class="stat-card gifts">
+    <div class="label">🎁 Quà tặng</div>
+    <div class="value" id="stat-gifts">0</div>
+  </div>
+  <div class="stat-card joins">
+    <div class="label">👥 Vào phòng</div>
+    <div class="value" id="stat-joins">0</div>
+  </div>
+</div>
+
+<!-- ── MAIN ── -->
+<div class="main">
+
+  <!-- Left Panel -->
+  <div class="panel">
+    <div class="tabs">
+      <div class="tab active" data-tab="realtime">🔴 Real-time</div>
+      <div class="tab" data-tab="comments">💬 Bình luận</div>
+      <div class="tab" data-tab="gifts">🎁 Quà tặng</div>
+      <div class="tab" data-tab="joins">👥 Vào phòng</div>
+      <div class="tab" data-tab="history">📋 Lịch sử</div>
+    </div>
+
+    <!-- Realtime Feed -->
+    <div class="tab-content active" id="tab-realtime">
+      <div class="feed" id="feed">
+        <div class="empty"><div class="icon">📡</div>Nhập username và nhấn Kết nối để bắt đầu nhận dữ liệu live</div>
+      </div>
+    </div>
+
+    <!-- Comments Tab -->
+    <div class="tab-content" id="tab-comments">
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Thời gian</th><th>Nickname</th><th>Username</th><th>Nội dung</th></tr></thead>
+          <tbody id="tbl-comments"></tbody>
+        </table>
+        <div class="empty" id="empty-comments" style="display:none"><div class="icon">💬</div>Chưa có bình luận</div>
+      </div>
+    </div>
+
+    <!-- Gifts Tab -->
+    <div class="tab-content" id="tab-gifts">
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Thời gian</th><th>Nickname</th><th>Quà</th><th>Số lượng</th><th>💎 Diamonds</th></tr></thead>
+          <tbody id="tbl-gifts"></tbody>
+        </table>
+        <div class="empty" id="empty-gifts" style="display:none"><div class="icon">🎁</div>Chưa có quà tặng</div>
+      </div>
+    </div>
+
+    <!-- Joins Tab -->
+    <div class="tab-content" id="tab-joins">
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Thời gian</th><th>Nickname</th><th>Username</th></tr></thead>
+          <tbody id="tbl-joins"></tbody>
+        </table>
+        <div class="empty" id="empty-joins" style="display:none"><div class="icon">👥</div>Chưa có ai vào phòng</div>
+      </div>
+    </div>
+
+    <!-- History Tab -->
+    <div class="tab-content" id="tab-history">
+      <div class="history-select">
+        <select id="sel-session">
+          <option value="">-- Chọn phiên live --</option>
+        </select>
+      </div>
+      <div class="history-stats" id="hist-stats" style="display:none">
+        <div class="hs-card"><div class="hs-val" id="hs-comments">0</div><div class="hs-lbl">💬 Bình luận</div></div>
+        <div class="hs-card"><div class="hs-val" id="hs-gifts">0</div><div class="hs-lbl">🎁 Quà</div></div>
+        <div class="hs-card"><div class="hs-val" id="hs-diamonds">0</div><div class="hs-lbl">💎 Diamonds</div></div>
+      </div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Thời gian</th><th>Loại</th><th>Nickname</th><th>Nội dung</th></tr></thead>
+          <tbody id="tbl-history"></tbody>
+        </table>
+        <div class="empty" id="empty-history"><div class="icon">📋</div>Chọn một phiên live để xem lại dữ liệu</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Panel -->
+  <div class="right-panel">
+    <!-- Top Gifters -->
+    <div class="gifters-panel">
+      <div class="panel-title">🏆 Top Người Tặng Quà</div>
+      <div class="gifter-list" id="gifter-list">
+        <div class="empty" style="padding:30px"><div class="icon">🏆</div>Chưa có dữ liệu</div>
+      </div>
+    </div>
+
+    <!-- Log -->
+    <div class="log-panel">
+      <div class="panel-title" style="font-size:12px;">📟 Nhật ký kết nối</div>
+      <div class="log-body" id="log-body"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+//  State
+// ═══════════════════════════════════════════
+const state = {
+  connected: false,
+  username: null,
+  sessionId: null,
+  stats: { comments: 0, likes: 0, gifts: 0, joins: 0 },
+  topGifters: {},   // user_id -> { nick, diamonds, count }
+  feedItems: [],
+  ws: null,
+  wsReconnectTimer: null,
+};
+
+// ═══════════════════════════════════════════
+//  DOM refs
+// ═══════════════════════════════════════════
+const $ = id => document.getElementById(id);
+const btnConnect    = $('btn-connect');
+const btnDisconnect = $('btn-disconnect');
+const inpUsername   = $('inp-username');
+const statusDot     = $('status-dot');
+const statusText    = $('status-text');
+
+// ═══════════════════════════════════════════
+//  Helpers
+// ═══════════════════════════════════════════
+function fmtTime(ts) {
+  if (!ts) return '';
+  const d = new Date(ts.replace(' ', 'T'));
+  return d.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
+
+function esc(str) {
+  return String(str ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function numFmt(n) {
+  if (n >= 1_000_000) return (n/1_000_000).toFixed(1) + 'M';
+  if (n >= 1_000)     return (n/1_000).toFixed(1) + 'K';
+  return String(n);
+}
+
+function addLog(msg, cls='') {
+  const el = document.createElement('div');
+  el.className = 'log-line ' + cls;
+  el.textContent = new Date().toLocaleTimeString('vi-VN') + ' — ' + msg;
+  const lb = $('log-body');
+  lb.prepend(el);
+  while (lb.children.length > 50) lb.lastChild.remove();
+}
+
+// ═══════════════════════════════════════════
+//  UI state update
+// ═══════════════════════════════════════════
+function setConnected(yes, username) {
+  state.connected = yes;
+  statusDot.className = 'dot' + (yes ? ' live' : '');
+  statusText.textContent = yes ? `● LIVE @${username}` : 'Chưa kết nối';
+  btnConnect.disabled    = yes;
+  btnDisconnect.disabled = !yes;
+  inpUsername.disabled   = yes;
+}
+
+function updateStat(key, val) {
+  state.stats[key] = val;
+  $('stat-' + key).textContent = numFmt(val);
+}
+
+// ═══════════════════════════════════════════
+//  Feed
+// ═══════════════════════════════════════════
+function pushFeed(html, cls) {
+  const feed = $('feed');
+  // Remove empty placeholder
+  const emp = feed.querySelector('.empty');
+  if (emp) emp.remove();
+
+  const el = document.createElement('div');
+  el.className = 'feed-item ' + cls;
+  el.innerHTML = html;
+  feed.prepend(el);
+  // Keep last 300
+  while (feed.children.length > 300) feed.lastChild.remove();
+}
+
+// ═══════════════════════════════════════════
+//  Top Gifters
+// ═══════════════════════════════════════════
+function updateTopGifters(uid, nick, diamonds, count) {
+  if (!state.topGifters[uid]) {
+    state.topGifters[uid] = { nick, diamonds: 0, count: 0 };
+  }
+  state.topGifters[uid].nick     = nick || uid;
+  state.topGifters[uid].diamonds += diamonds;
+  state.topGifters[uid].count   += count;
+  renderTopGifters();
+}
+
+function renderTopGifters() {
+  const sorted = Object.entries(state.topGifters)
+    .sort((a,b) => b[1].diamonds - a[1].diamonds)
+    .slice(0, 10);
+
+  const list = $('gifter-list');
+  list.innerHTML = '';
+
+  if (!sorted.length) {
+    list.innerHTML = '<div class="empty" style="padding:30px"><div class="icon">🏆</div>Chưa có dữ liệu</div>';
+    return;
+  }
+
+  sorted.forEach(([uid, info], i) => {
+    const rank = i + 1;
+    const rankClass = rank <= 3 ? ` r${rank}` : '';
+    const rankEmoji = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
+    list.innerHTML += `
+      <div class="gifter-item">
+        <div class="gifter-rank${rankClass}">${rankEmoji}</div>
+        <div class="gifter-info">
+          <div class="gifter-nick">${esc(info.nick)}</div>
+          <div class="gifter-sub">${info.count} món quà</div>
+        </div>
+        <div class="gifter-diamonds">💎 ${numFmt(info.diamonds)}</div>
+      </div>`;
+  });
+}
+
+// ═══════════════════════════════════════════
+//  Table helpers
+// ═══════════════════════════════════════════
+function prependRow(tbodyId, cells) {
+  const tbody = $(tbodyId);
+  const tr = document.createElement('tr');
+  tr.innerHTML = cells.map(c => `<td>${c}</td>`).join('');
+  tbody.prepend(tr);
+  while (tbody.children.length > 300) tbody.lastChild.remove();
+}
+
+// ═══════════════════════════════════════════
+//  WebSocket
+// ═══════════════════════════════════════════
+function connectWS() {
+  if (state.ws && state.ws.readyState < 2) return;
+  const ws = new WebSocket(`ws://${location.host}/ws`);
+  state.ws = ws;
+
+  ws.onopen = () => addLog('WebSocket kết nối thành công', 'ok');
+
+  ws.onmessage = ({ data }) => {
+    let msg;
+    try { msg = JSON.parse(data); } catch { return; }
+    handleEvent(msg);
+  };
+
+  ws.onclose = () => {
+    addLog('WebSocket đóng. Thử lại sau 3s...', 'err');
+    clearTimeout(state.wsReconnectTimer);
+    state.wsReconnectTimer = setTimeout(connectWS, 3000);
+  };
+
+  ws.onerror = () => addLog('WebSocket lỗi', 'err');
+}
+
+// ═══════════════════════════════════════════
+//  Clear all tabs (trừ Lịch sử)
+// ═══════════════════════════════════════════
+function clearAllTabs() {
+  // Reset stats
+  state.stats = { comments: 0, likes: 0, gifts: 0, joins: 0 };
+  ['comments','likes','gifts','joins'].forEach(k => $('stat-'+k).textContent = '0');
+
+  // Reset top gifters
+  state.topGifters = {};
+  renderTopGifters();
+
+  // Clear realtime feed
+  $('feed').innerHTML = '<div class="empty"><div class="icon">📡</div>Đang kết nối tới phiên live mới...</div>';
+
+  // Clear comments table
+  $('tbl-comments').innerHTML = '';
+  $('empty-comments').style.display = '';
+
+  // Clear gifts table
+  $('tbl-gifts').innerHTML = '';
+  $('empty-gifts').style.display = '';
+
+  // Clear joins table
+  $('tbl-joins').innerHTML = '';
+  $('empty-joins').style.display = '';
+}
+
+// ═══════════════════════════════════════════
+//  Event handler
+// ═══════════════════════════════════════════
+function handleEvent(msg) {
+  const t = fmtTime(msg.timestamp);
+
+  switch (msg.type) {
+
+    case 'clear':
+      // Kết nối live mới → xóa toàn bộ dữ liệu hiện tại (trừ tab Lịch sử)
+      clearAllTabs();
+      state.sessionId = msg.session_id || null;
+      addLog(`🔄 Phiên mới @${msg.username} — đã xóa dữ liệu cũ`);
+      break;
+
+    case 'status':
+      if (msg.connected) {
+        setConnected(true, msg.username);
+        addLog(`Đã kết nối @${msg.username} (room: ${msg.room_id||'?'})`, 'ok');
+      } else {
+        setConnected(false, null);
+        addLog(`Ngắt kết nối khỏi @${msg.username}`);
+      }
+      break;
+
+    case 'live_end':
+      setConnected(false, null);
+      addLog(`Live của @${msg.username} đã kết thúc`, 'err');
+      pushFeed(`<span class="time">${t}</span>🔴 Phiên live của <b>@${esc(msg.username)}</b> đã kết thúc`, 'join');
+      break;
+
+    case 'comment': {
+      updateStat('comments', state.stats.comments + 1);
+      const html = `<span class="time">${t}</span>💬 <span class="nick c">${esc(msg.nickname||msg.username)}</span>: ${esc(msg.comment)}`;
+      pushFeed(html, 'comment');
+      prependRow('tbl-comments', [t, esc(msg.nickname||''), esc(msg.username||''), esc(msg.comment||'')]);
+      $('empty-comments').style.display = 'none';
+      break;
+    }
+
+    case 'gift': {
+      updateStat('gifts', state.stats.gifts + 1);
+      const diamonds = (msg.diamond_count||0) * (msg.repeat_count||1);
+      const html = `<span class="time">${t}</span>🎁 <span class="nick g">${esc(msg.nickname||msg.username)}</span> tặng <b>${esc(msg.gift_name)}</b> x${msg.repeat_count} <span style="color:var(--gift)">💎${numFmt(diamonds)}</span>`;
+      pushFeed(html, 'gift');
+      prependRow('tbl-gifts', [
+        t, esc(msg.nickname||''), esc(msg.gift_name||''),
+        `x${msg.repeat_count}`,
+        `<span class="badge diamond">💎 ${numFmt(diamonds)}</span>`
+      ]);
+      $('empty-gifts').style.display = 'none';
+      updateTopGifters(msg.user_id||msg.username, msg.nickname||msg.username, msg.diamond_count||0, msg.repeat_count||1);
+      break;
+    }
+
+    case 'like': {
+      updateStat('likes', msg.total_likes || state.stats.likes + (msg.like_count||0));
+      break;
+    }
+
+    case 'join': {
+      updateStat('joins', state.stats.joins + 1);
+      const html = `<span class="time">${t}</span>👤 <span class="nick j">${esc(msg.nickname||msg.username)}</span> vừa vào phòng`;
+      pushFeed(html, 'join');
+      prependRow('tbl-joins', [t, esc(msg.nickname||''), esc(msg.username||'')]);
+      $('empty-joins').style.display = 'none';
+      break;
+    }
+  }
+}
+
+// ═══════════════════════════════════════════
+//  Connect / Disconnect
+// ═══════════════════════════════════════════
+btnConnect.onclick = async () => {
+  const username = inpUsername.value.trim().replace(/^@/, '');
+  if (!username) { alert('Vui lòng nhập username TikTok'); return; }
+
+  btnConnect.disabled = true;
+  addLog(`Đang kết nối tới @${username}...`);
+
+  try {
+    const res = await fetch('/api/connect', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username }),
+    });
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.detail || 'Lỗi kết nối');
+    // Trạng thái thực tế sẽ được cập nhật qua WebSocket ConnectEvent
+    addLog(`Đang chờ xác nhận kết nối...`);
+  } catch (e) {
+    addLog('Lỗi: ' + e.message, 'err');
+    btnConnect.disabled = false;
+  }
+};
+
+btnDisconnect.onclick = async () => {
+  btnDisconnect.disabled = true;
+  try {
+    await fetch('/api/disconnect', { method: 'POST' });
+    setConnected(false, null);
+    addLog('Đã ngắt kết nối thủ công');
+    clearAllTabs();
+    $('feed').innerHTML = '<div class="empty"><div class="icon">📡</div>Nhập username và nhấn Kết nối để bắt đầu nhận dữ liệu live</div>';
+  } catch (e) {
+    addLog('Lỗi khi ngắt: ' + e.message, 'err');
+    btnDisconnect.disabled = false;
+  }
+};
+
+// ═══════════════════════════════════════════
+//  Tabs
+// ═══════════════════════════════════════════
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.onclick = () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    tab.classList.add('active');
+    $('tab-' + tab.dataset.tab).classList.add('active');
+    if (tab.dataset.tab === 'history') loadSessions();
+  };
+});
+
+// ═══════════════════════════════════════════
+//  History Tab
+// ═══════════════════════════════════════════
+async function loadSessions() {
+  const sel = $('sel-session');
+  try {
+    const sessions = await fetch('/api/sessions').then(r => r.json());
+    sel.innerHTML = '<option value="">-- Chọn phiên live --</option>';
+    sessions.forEach(s => {
+      const start = s.started_at ? s.started_at.substring(0,16) : '';
+      const ended = s.ended_at   ? ' → ' + s.ended_at.substring(11,16) : ' (đang live)';
+      sel.innerHTML += `<option value="${s.id}">@${s.username} | ${start}${ended}</option>`;
+    });
+  } catch {}
+}
+
+$('sel-session').onchange = async function() {
+  const sid = this.value;
+  if (!sid) { $('hist-stats').style.display='none'; $('tbl-history').innerHTML=''; return; }
+
+  try {
+    const [stats, comments, gifts, joins] = await Promise.all([
+      fetch(`/api/session/${sid}/stats`).then(r=>r.json()),
+      fetch(`/api/session/${sid}/comments?limit=200`).then(r=>r.json()),
+      fetch(`/api/session/${sid}/gifts?limit=200`).then(r=>r.json()),
+      fetch(`/api/session/${sid}/joins?limit=200`).then(r=>r.json()),
+    ]);
+
+    // Stats
+    $('hist-stats').style.display = 'grid';
+    $('hs-comments').textContent  = numFmt(stats.total_comments);
+    $('hs-gifts').textContent     = numFmt(stats.total_gifts);
+    $('hs-diamonds').textContent  = numFmt(stats.total_diamonds);
+
+    // Merge & sort
+    const rows = [
+      ...comments.map(r => ({ time: r.timestamp, type: 'comment', nick: r.nickname||r.username, content: r.comment })),
+      ...gifts.map(r    => ({ time: r.timestamp, type: 'gift',    nick: r.nickname||r.username, content: `${r.gift_name} x${r.repeat_count} (💎${(r.diamond_count||0)*(r.repeat_count||1)})` })),
+      ...joins.map(r    => ({ time: r.timestamp, type: 'join',    nick: r.nickname||r.username, content: 'Vào phòng' })),
+    ].sort((a,b) => (b.time||'').localeCompare(a.time||''));
+
+    const tbody = $('tbl-history');
+    $('empty-history').style.display = rows.length ? 'none' : '';
+    tbody.innerHTML = rows.map(r => {
+      const icon = r.type==='comment'?'💬':r.type==='gift'?'🎁':'👥';
+      return `<tr><td>${fmtTime(r.time)}</td><td>${icon}</td><td>${esc(r.nick)}</td><td>${esc(r.content)}</td></tr>`;
+    }).join('');
+
+  } catch (e) {
+    addLog('Lỗi load lịch sử: ' + e.message, 'err');
+  }
+};
+
+// ═══════════════════════════════════════════
+//  Init
+// ═══════════════════════════════════════════
+(async () => {
+  connectWS();
+  // Restore status if already connected
+  try {
+    const st = await fetch('/api/status').then(r=>r.json());
+    if (st.connected && st.username) {
+      setConnected(true, st.username);
+      inpUsername.value = st.username;
+      addLog(`Đang theo dõi @${st.username} (session ${st.session_id})`, 'ok');
+    }
+  } catch {}
+})();
+</script>
+</body>
+</html>

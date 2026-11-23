@@ -65,7 +65,6 @@
     <Compile Include="Assets/Music/MusicManager.cs" />
     <Compile Include="Assets/Scripts/Farm.cs" />
     <Compile Include="Assets/Scripts/SfxManager.cs" />
-    <Compile Include="Assets/Scripts/FakeEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

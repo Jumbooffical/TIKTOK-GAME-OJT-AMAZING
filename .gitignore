@@ -138,3 +138,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
 /Bridge/node_modules/
+LAY ID TIKTOK/__pycache__
+LAY ID TIKTOK/tiktok_live.db

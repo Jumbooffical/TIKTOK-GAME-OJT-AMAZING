@@ -6,7 +6,7 @@ using NativeWebSocket;
 public class LiveEvent
 {
 	public string type;
-	public string user;
+	public string username;
 	public string comment;
 	public string gift;
 	public int count;
@@ -15,7 +15,7 @@ public class LiveEvent
 
 public class LiveConnection : MonoBehaviour
 {
-	[SerializeField] private string url = "ws://localhost:8080";
+	[SerializeField] private string url = "ws://localhost:8000";
 
 	public static event Action<LiveEvent> OnEvent;
 

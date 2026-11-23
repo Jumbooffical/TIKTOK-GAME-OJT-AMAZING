@@ -773,50 +773,6 @@ MonoBehaviour:
   pivotOffsetY: -0.5
   randomizePhase: 1
   speedVariance: 0.2
---- !u!1 &278887563
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 278887565}
-  - component: {fileID: 278887564}
-  m_Layer: 0
-  m_Name: FakeEvents
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &278887564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278887563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcf4b009a7f36f29cb3f97ec818f58cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
---- !u!4 &278887565
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278887563}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.54329, y: 7.08276, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &413387379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd28b33336a633d99b2cb7b53bdd99e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LiveConnection
-  url: ws://localhost:8080
+  url: ws://localhost:8001/ws
 --- !u!4 &829632505
 Transform:
   m_ObjectHideFlags: 0
@@ -4152,4 +4108,3 @@ SceneRoots:
   - {fileID: 1228945640}
   - {fileID: 82673016}
   - {fileID: 617307044}
-  - {fileID: 278887565}
