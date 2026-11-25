@@ -1450,3 +1450,12 @@ Memory consumption went from 162.2 MB to 161.6 MB.
 Total: 10.294079 ms (FindLiveObjects: 0.370472 ms CreateObjectMapping: 0.109101 ms MarkObjects: 8.876321 ms  DeleteObjects: 0.780002 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (27.8 KB). Loaded Objects now: 2360.
+Memory consumption went from 161.6 MB to 161.6 MB.
+Total: 13.630429 ms (FindLiveObjects: 0.459978 ms CreateObjectMapping: 0.083919 ms MarkObjects: 12.755687 ms  DeleteObjects: 0.132102 ms)
+
+Prepare: number of updated asset objects reloaded= 0

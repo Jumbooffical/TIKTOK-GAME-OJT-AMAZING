@@ -1247,7 +1247,7 @@ MonoBehaviour:
   debugTimeOfDay: 0
   morningSprite: {fileID: -7174398410651123135, guid: f513656759ccdf517bcc6ad418108d74, type: 3}
   afternoonSprite: {fileID: 2111242316168748282, guid: 082c202653fb50af1ac17c967e5b92d9, type: 3}
-  nightSprite: {fileID: -7174398410651123135, guid: f513656759ccdf517bcc6ad418108d74, type: 3}
+  nightSprite: {fileID: -7954753313157245522, guid: 4e072d736bd9f9dd8abed4f524a5dbaa, type: 3}
   fitMode: 0
   autoFitMargin: 1.05
   verticalOffset: 0
