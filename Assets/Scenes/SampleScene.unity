@@ -1214,6 +1214,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3751753846654571536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &538797917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 538797919}
+  - component: {fileID: 538797918}
+  m_Layer: 0
+  m_Name: DayNightBackgroundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &538797918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538797917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2f3a4b5c60718293a4b5c6d7e8f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DayNightBackgroundManager
+  useRealTime: 1
+  debugTimeOfDay: 0
+  morningSprite: {fileID: -7174398410651123135, guid: f513656759ccdf517bcc6ad418108d74, type: 3}
+  afternoonSprite: {fileID: 2111242316168748282, guid: 082c202653fb50af1ac17c967e5b92d9, type: 3}
+  nightSprite: {fileID: -7174398410651123135, guid: f513656759ccdf517bcc6ad418108d74, type: 3}
+  fitMode: 0
+  autoFitMargin: 1.05
+  verticalOffset: 0
+  sortingOrder: -100
+  crossfadeDuration: 1.5
+--- !u!4 &538797919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538797917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.83586, y: 2.80436, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &617307040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4099,6 +4153,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1228615619}
+  - {fileID: 538797919}
   - {fileID: 2127069433}
   - {fileID: 1189868148}
   - {fileID: 1750655488}
