@@ -1,21 +1,345 @@
 
 Server arguments:
   --memory-size 1073741824
-  --shared-postfix b2774d34a14bc7149ccc5e3f6acc9ac8
+  --shared-postfix 12a4454b48ab70e3cbf21d31c14a3125
   --working-directory Library/DataStore
   --silent-console
   --shutdown-grace 0
   --client-process-check 0
-  --uds-log-file /media/veracrypt1/mydata/Projects/TIKTOK-GAME-OJT-AMAZING/Logs/UDS-Service.log
+  --uds-log-file /media/veracrypt1/mydata/Projects/the newest commit/TIKTOK-GAME-OJT-AMAZING/Logs/UDS-Service.log
   --debug-log 2
 
 Initialising UDS system complete:
   - System type: Service
-  - Resource namespace: b2774d34a14bc7149ccc5e3f6acc9ac8
+  - Resource namespace: 12a4454b48ab70e3cbf21d31c14a3125
   - Shared memory size: 1073741824
   - Command buffer id: 1052624
   - Command buffer size: 8192
   - Hashmap size: 4194304
 Starting Unity Data Store Application
+[Error] Failed to remove data for hash 784bfa0a9a51a7025072c3d261ecd0c5. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 938028bd146f8bc2bac30e6fcca99ad4. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash ce1f81b1cf1c0fde7dbe2c47df65fd9a. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash e7a21243967c31114c9402de74ff2866. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash b74de2435f5735b9e15b3bceeccffec5. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 4d7e3736f4a5ad500a9c325b28d278a8. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash e91ad23ebdf4a1acc99ec2f77ee89c7f. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 85471c4979e2737f0194ce127508ff92. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash d102ca79b7ced0665cd0895fbc319934. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 70035d573eff44f6fdca02ba0c6cf731. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 70035d573eff44f6fdca02ba0c6cf731. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 8bb8a7c641caa61a6a2e85b28b3828d5. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 03d3da6a1792256eb5b88164a1350a83. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 03d3da6a1792256eb5b88164a1350a83. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 03d3da6a1792256eb5b88164a1350a83. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 1304cdbf6cc51d8c4ce51668a26f9ff3. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash fe1136416319fa59d2114c23279a6ce4. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 003832923332865f45c9c2c1bab6f7fb. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 70035d573eff44f6fdca02ba0c6cf731. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 9b57f3b5f3509a095453eb8e87c4cd85. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 03d3da6a1792256eb5b88164a1350a83. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 03d3da6a1792256eb5b88164a1350a83. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 7fe487464c916b6db92270544e815f54. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash a3004ec9abdec35c9e6f90a26ce37d07. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash 0773411c2c4d3620a3dced792f8d0da4. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash e91ad23ebdf4a1acc99ec2f77ee89c7f. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
+[Error] Failed to remove data for hash c3e6c05d23241f45d7575c1e06af1bd5. Failure received from service
+ #2 print_call_stack(int)
+ #3 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #4 uds_process_command(uds_system_t*, uds_command_t*)
+ #5 uds::ServiceCommandListener::ProcessNextCommand()
+ #6 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #7 uds::Service::ExecuteServiceLoop()
+ #8 main
+ #9 ???
+ #10 __libc_start_main
+ #11 _start
+
 Unity Data Store Application Complete
 Shut down UDS service system complete

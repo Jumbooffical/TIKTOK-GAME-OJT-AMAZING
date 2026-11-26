@@ -56,6 +56,7 @@
     <Compile Include="Assets/Scripts/ProgressBar.cs" />
     <Compile Include="Assets/Scripts/LiveActions.cs" />
     <Compile Include="Assets/Scripts/FarmTester.cs" />
+    <Compile Include="Assets/Scripts/SeasonManager.cs" />
     <Compile Include="Assets/Scripts/LiveConnection.cs" />
     <Compile Include="Assets/createslot.cs" />
     <Compile Include="Assets/Scripts/DayNightBackgroundManager.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Assets/Scripts/Plant.cs" />
     <Compile Include="Assets/Music/MusicManager.cs" />
     <Compile Include="Assets/Scripts/Farm.cs" />
+    <Compile Include="Assets/Scripts/FarmUIManager.cs" />
     <Compile Include="Assets/Scripts/SfxManager.cs" />
   </ItemGroup>
   <ItemGroup>

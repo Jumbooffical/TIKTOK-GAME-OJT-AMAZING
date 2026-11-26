@@ -37,15 +37,25 @@ public class FarmTester : MonoBehaviour
         {
             PlantInNextEmptyPlot();
 
-            SfxManager.Instance.PlayPlanting();
+            if (SfxManager.Instance != null)
+                SfxManager.Instance.PlayPlanting();
         }
 
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
+            HarvestAll();
+        }
+    }
+
+    public void HarvestAll()
+    {
+        if (farm != null)
+        {
             farm.HarvestAllPlants();
             farm.StartNewSeason();
 
-            SfxManager.Instance.PlayHarvestAllPlants();
+            if (SfxManager.Instance != null)
+                SfxManager.Instance.PlayHarvestAllPlants();
         }
     }
 
