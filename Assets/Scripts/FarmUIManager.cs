@@ -326,24 +326,92 @@ public class FarmUIManager : MonoBehaviour
         totalHarvestedText.color = new Color(0.85f, 0.95f, 0.85f);
         totalHarvestedText.alignment = TextAlignmentOptions.Center;
 
-        // Slots Container (VerticalLayoutGroup)
-        GameObject gridObj = new GameObject("SlotsContainer", typeof(RectTransform), typeof(VerticalLayoutGroup));
-        gridObj.transform.SetParent(cardObj.transform, false);
-        RectTransform gridRect = gridObj.GetComponent<RectTransform>();
-        gridRect.anchorMin = new Vector2(0f, 0f);
-        gridRect.anchorMax = new Vector2(1f, 1f);
-        gridRect.offsetMin = new Vector2(12f, 16f);
-        gridRect.offsetMax = new Vector2(-12f, -68f);
+        // Scroll View (holds all crop rows)
+        GameObject scrollObj = new GameObject("CropScrollView", typeof(RectTransform), typeof(ScrollRect));
+        scrollObj.transform.SetParent(cardObj.transform, false);
+        RectTransform scrollRT = scrollObj.GetComponent<RectTransform>();
+        scrollRT.anchorMin = new Vector2(0f, 0f);
+        scrollRT.anchorMax = new Vector2(1f, 1f);
+        scrollRT.offsetMin = new Vector2(12f, 16f);
+        scrollRT.offsetMax = new Vector2(-12f, -68f);
 
-        VerticalLayoutGroup vlg = gridObj.GetComponent<VerticalLayoutGroup>();
+        // Viewport (clips the rows; leaves 10px on the right for the scrollbar)
+        GameObject viewportObj = new GameObject("Viewport", typeof(RectTransform), typeof(RectMask2D), typeof(Image));
+        viewportObj.transform.SetParent(scrollObj.transform, false);
+        RectTransform viewportRT = viewportObj.GetComponent<RectTransform>();
+        viewportRT.anchorMin = Vector2.zero;
+        viewportRT.anchorMax = Vector2.one;
+        viewportRT.offsetMin = Vector2.zero;
+        viewportRT.offsetMax = new Vector2(-10f, 0f);
+        viewportObj.GetComponent<Image>().color = new Color(0f, 0f, 0f, 0f); // invisible, but lets drag/wheel work
+
+        // Content (the rows go here)
+        GameObject contentObj = new GameObject("SlotsContainer", typeof(RectTransform), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter));
+        contentObj.transform.SetParent(viewportObj.transform, false);
+        RectTransform contentRT = contentObj.GetComponent<RectTransform>();
+        contentRT.anchorMin = new Vector2(0f, 1f);
+        contentRT.anchorMax = new Vector2(1f, 1f);
+        contentRT.pivot = new Vector2(0.5f, 1f);
+        contentRT.anchoredPosition = Vector2.zero;
+        contentRT.sizeDelta = Vector2.zero;
+
+        VerticalLayoutGroup vlg = contentObj.GetComponent<VerticalLayoutGroup>();
         vlg.spacing = 8f;
         vlg.childAlignment = TextAnchor.UpperCenter;
         vlg.childControlWidth = true;
-        vlg.childControlHeight = false;
+        vlg.childControlHeight = true;
         vlg.childForceExpandWidth = true;
         vlg.childForceExpandHeight = false;
 
-        slotsContainer = gridObj.transform;
+        ContentSizeFitter fitter = contentObj.GetComponent<ContentSizeFitter>();
+        fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+        // Scrollbar
+        GameObject barObj = new GameObject("Scrollbar", typeof(RectTransform), typeof(Image), typeof(Scrollbar));
+        barObj.transform.SetParent(scrollObj.transform, false);
+        RectTransform barRT = barObj.GetComponent<RectTransform>();
+        barRT.anchorMin = new Vector2(1f, 0f);
+        barRT.anchorMax = new Vector2(1f, 1f);
+        barRT.pivot = new Vector2(1f, 1f);
+        barRT.anchoredPosition = Vector2.zero;
+        barRT.sizeDelta = new Vector2(8f, 0f);
+        barObj.GetComponent<Image>().color = new Color(0f, 0f, 0f, 0.35f);
+
+        GameObject slidingObj = new GameObject("SlidingArea", typeof(RectTransform));
+        slidingObj.transform.SetParent(barObj.transform, false);
+        RectTransform slidingRT = slidingObj.GetComponent<RectTransform>();
+        slidingRT.anchorMin = Vector2.zero;
+        slidingRT.anchorMax = Vector2.one;
+        slidingRT.offsetMin = Vector2.zero;
+        slidingRT.offsetMax = Vector2.zero;
+
+        GameObject handleObj = new GameObject("Handle", typeof(RectTransform), typeof(Image));
+        handleObj.transform.SetParent(slidingObj.transform, false);
+        RectTransform handleRT = handleObj.GetComponent<RectTransform>();
+        handleRT.anchorMin = Vector2.zero;
+        handleRT.anchorMax = Vector2.one;
+        handleRT.offsetMin = Vector2.zero;
+        handleRT.offsetMax = Vector2.zero;
+        Image handleImg = handleObj.GetComponent<Image>();
+        handleImg.color = new Color(1f, 0.94f, 0.65f, 0.9f);
+
+        Scrollbar scrollbar = barObj.GetComponent<Scrollbar>();
+        scrollbar.handleRect = handleRT;
+        scrollbar.targetGraphic = handleImg;
+        scrollbar.direction = Scrollbar.Direction.BottomToTop;
+
+        // Wire it all together
+        ScrollRect sr = scrollObj.GetComponent<ScrollRect>();
+        sr.viewport = viewportRT;
+        sr.content = contentRT;
+        sr.horizontal = false;
+        sr.vertical = true;
+        sr.movementType = ScrollRect.MovementType.Clamped;
+        sr.scrollSensitivity = 25f;
+        sr.verticalScrollbar = scrollbar;
+        sr.verticalScrollbarVisibility = ScrollRect.ScrollbarVisibility.Permanent;
+
+        slotsContainer = contentObj.transform;
     }
 
     // 3. BOTTOM ACTION BUTTONS

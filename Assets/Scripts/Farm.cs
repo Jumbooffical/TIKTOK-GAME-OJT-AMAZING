@@ -27,9 +27,9 @@ public class Farm : MonoBehaviour
 
     public string[] cropNames =
     {
-    "WhiteFlower", "PurpleFlower", "Herb", "Carrot", "Corn",
-    "Eggplant", "Pumpkin", "Radish", "Strawberry", "Sunflower",
-    "Tomato", "Watermelon", "Wheat", "PurpleMushroom", "RedMushroom"
+        "WhiteFlower", "PurpleFlower", "Herb", "Carrot", "Corn",
+        "Eggplant", "Pumpkin", "Radish", "Strawberry", "Sunflower",
+        "Tomato", "Watermelon", "Wheat", "PurpleMushroom", "RedMushroom"
     };
 
     [Header("Season Settings")]
