@@ -70,6 +70,7 @@ public class FarmUIManager : MonoBehaviour
 
     private void Awake()
     {
+        foreach (var s in Resources.LoadAll<Sprite>("Crops")) Debug.Log("Found sprite: " + s.name);
         if (Instance == null)
         {
             Instance = this;
@@ -466,6 +467,7 @@ public class FarmUIManager : MonoBehaviour
 
                 if (slot != null && slot.countText != null)
                 {
+                    if (slot.iconImage.sprite == null) slot.iconImage.sprite = LoadCropIcon(cropName);
                     slot.countText.text = $"x{count}";
                     slot.iconImage.color = (count > 0) ? Color.white : new Color(0.6f, 0.6f, 0.6f, 0.45f);
                 }
@@ -525,6 +527,7 @@ public class FarmUIManager : MonoBehaviour
 
         Image iconImg = iconObj.GetComponent<Image>();
         iconImg.sprite = LoadCropIcon(cropName);
+        Debug.Log("[FarmUIManager] Slot " + cropName + " sprite = " + (iconImg.sprite != null ? iconImg.sprite.name : "NULL"));
         iconImg.preserveAspect = true;
 
         // Crop Name Label (in English)
@@ -583,20 +586,24 @@ public class FarmUIManager : MonoBehaviour
 
     private Sprite LoadCropIcon(string cropName)
     {
-        Sprite s = Resources.Load<Sprite>("Crops/" + cropName);
-        if (s != null) return s;
-
-        s = Resources.Load<Sprite>("Crops/Crop_" + cropName);
-        if (s != null) return s;
-
+        string file;
         switch (cropName)
         {
-            case "WhiteFlower": return LoadSpriteSafe("Sprite/Nature_Flowers_White_03");
-            case "PurpleFlower": return LoadSpriteSafe("Sprite/Nature_Flowers_Purple_03");
-            case "Herb": return LoadSpriteSafe("Sprite/Nature_Herbs");
-            case "PurpleMushroom": return LoadSpriteSafe("Sprite/Nature_Mushrooms_Purple_02");
-            case "RedMushroom": return LoadSpriteSafe("Sprite/Nature_Mushrooms_Red_02");
+            case "WhiteFlower": file = "Nature_Flowers_White_03"; break;
+            case "PurpleFlower": file = "Nature_Flowers_Purple_03"; break;
+            case "Herb": file = "Nature_Herbs"; break;
+            case "PurpleMushroom": file = "Nature_Mushrooms_Purple_02"; break;
+            case "RedMushroom": file = "Nature_Mushrooms_Red_02"; break;
+            default: file = "Crop_" + cropName; break;
         }
+
+        foreach (Sprite sp in Resources.LoadAll<Sprite>("Crops"))
+        {
+            if (sp.name == file || sp.name == file + "_0")
+                return sp;
+        }
+
+        Debug.LogWarning("[FarmUIManager] Icon missing for: " + cropName + " (looked for " + file + ")");
         return null;
     }
 

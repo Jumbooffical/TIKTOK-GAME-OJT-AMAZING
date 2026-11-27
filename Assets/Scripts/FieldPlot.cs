@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class FieldPlot : MonoBehaviour
 {
@@ -13,6 +14,24 @@ public class FieldPlot : MonoBehaviour
     public float fadeTime = 0.4f;
     public bool IsRevealed { get; private set; }
     public System.Action OnRevealed;
+    private static Dictionary<string, string> cropSpriteMap = new Dictionary<string, string>()
+    {
+        { "WhiteFlower", "Nature_Flowers_White_03" },
+        { "PurpleFlower", "Nature_Flowers_Purple_03" },
+        { "Herb", "Nature_Herbs" },
+        { "Carrot", "Crop_Carrot" },
+        { "Corn", "Crop_Corn" },
+        { "Eggplant", "Crop_Eggplant" },
+        { "Pumpkin", "Crop_Pumpkin" },
+        { "Radish", "Crop_Radish" },
+        { "Strawberry", "Crop_Strawberry" },
+        { "Sunflower", "Crop_Sunflower" },
+        { "Tomato", "Crop_Tomato" },
+        { "Watermelon", "Crop_Watermelon" },
+        { "Wheat", "Crop_Wheat" },
+        { "PurpleMushroom", "Nature_Mushrooms_Purple_02" },
+        { "RedMushroom", "Nature_Mushrooms_Red_02" }
+    };
 
     private void Awake()
     {
@@ -48,19 +67,18 @@ public class FieldPlot : MonoBehaviour
     {
         HideAllCrops();
 
-        // 1. Neu co san GameObject trong mang crops
-        if (crops != null && cropIndex >= 0 && cropIndex < crops.Length && crops[cropIndex] != null)
-        {
-            ShowDynamicCrop(crops[cropIndex].GetComponent<SpriteRenderer>().sprite, crops[cropIndex].name);
-            Debug.Log("Displaying crop (GameObject): " + crops[cropIndex].name);
-            return;
-        }
-
-        // 2. Tu dong hien thi Sprite tu Resources/Crops
+        // 1. Try the named sprite from Resources/Crops first
         Sprite targetSprite = null;
         if (!string.IsNullOrEmpty(cropName))
         {
-            targetSprite = Resources.Load<Sprite>("Crops/" + cropName);
+            if (cropSpriteMap.ContainsKey(cropName))
+            {
+                targetSprite = Resources.Load<Sprite>("Crops/" + cropSpriteMap[cropName]);
+            }
+            if (targetSprite == null)
+            {
+                targetSprite = Resources.Load<Sprite>("Crops/" + cropName);
+            }
             if (targetSprite == null)
             {
                 targetSprite = Resources.Load<Sprite>("Crops/Crop_" + cropName);
@@ -70,6 +88,13 @@ public class FieldPlot : MonoBehaviour
         if (targetSprite != null)
         {
             ShowDynamicCrop(targetSprite, cropName);
+            return;
+        }
+
+        // 2. Fall back to the manual placeholder GameObjects
+        if (crops != null && cropIndex >= 0 && cropIndex < crops.Length && crops[cropIndex] != null)
+        {
+            ShowDynamicCrop(crops[cropIndex].GetComponent<SpriteRenderer>().sprite, crops[cropIndex].name);
             return;
         }
 
@@ -116,7 +141,7 @@ public class FieldPlot : MonoBehaviour
         dynamicCropRenderer.gameObject.SetActive(true);
         StartCoroutine(RevealRoutine());
 
-        Debug.Log("Displaying crop (Dynamic Sprite): " + sprite.name);
+        Debug.Log("Displaying crop (Dynamic Sprite): " + (sprite != null ? sprite.name : "NULL for " + cropName));
 
     }
     IEnumerator RevealRoutine()

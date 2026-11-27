@@ -14,7 +14,7 @@ public class Farm : MonoBehaviour
     public float spacing = 1.2f;
 
     [Header("Crop Scores")]
-    public int[] cropScores = { 10, 20, 15, 30, 50 };
+    public int[] cropScores = { 10, 20, 15, 25, 30, 28, 35, 18, 22, 20, 26, 40, 32, 30, 50 };
 
     [Header("Scoreboard")]
     public TMP_Text statsText;
@@ -27,11 +27,9 @@ public class Farm : MonoBehaviour
 
     public string[] cropNames =
     {
-        "WhiteFlower",
-        "PurpleFlower",
-        "Herb",
-        "PurpleMushroom",
-        "RedMushroom"
+    "WhiteFlower", "PurpleFlower", "Herb", "Carrot", "Corn",
+    "Eggplant", "Pumpkin", "Radish", "Strawberry", "Sunflower",
+    "Tomato", "Watermelon", "Wheat", "PurpleMushroom", "RedMushroom"
     };
 
     [Header("Season Settings")]
@@ -128,7 +126,7 @@ public class Farm : MonoBehaviour
             cropScores[cropIndex]
         );
 
-        fieldViews[plotIndex].PlantCrop(cropIndex);
+        fieldViews[plotIndex].PlantCrop(cropIndex, plantName);
 
         Debug.Log("Planted " + plantName + " in plot " + plotIndex);
 

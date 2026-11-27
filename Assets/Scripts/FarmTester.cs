@@ -9,7 +9,17 @@ public class FarmTester : MonoBehaviour
     {
         "WhiteFlower",
         "PurpleFlower",
-        "Herb"
+        "Herb",
+        "Carrot",
+        "Corn",
+        "Eggplant",
+        "Pumpkin",
+        "Radish",
+        "Strawberry",
+        "Sunflower",
+        "Tomato",
+        "Watermelon",
+        "Wheat"
     };
 
     string[] rareCrops =

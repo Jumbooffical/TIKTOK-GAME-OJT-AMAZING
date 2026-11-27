@@ -2108,7 +2108,7 @@ MonoBehaviour:
   totalPlots: 50
   columns: 10
   spacing: 3.47
-  cropScores: 0a000000140000000f0000001e00000032000000i
+  cropScores: 0a000000140000000f0000001e0000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000i
   statsText: {fileID: 0}
   currentScoreText: {fileID: 0}
   totalHarvested: 0
@@ -2119,6 +2119,16 @@ MonoBehaviour:
   - PurpleFlower
   - Herb
   - PurpleMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
+  - RedMushroom
   - RedMushroom
   seasonText: {fileID: 0}
 --- !u!4 &1189868148
@@ -2445,15 +2455,15 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7467812094369845854, guid: 9beb7de02c7ad79428a3f030438dba8c, type: 3}
+  m_Sprite: {fileID: -4938660041256332745, guid: 9beb7de02c7ad79428a3f030438dba8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.57, y: 0.81}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!4 &1420714879
@@ -3102,7 +3112,7 @@ MonoBehaviour:
   totalPlots: 50
   columns: 10
   spacing: 3.47
-  cropScores: 0a000000140000000f0000001e00000032000000i
+  cropScores: 0a000000140000000f0000001e0000003200000032000000320000003200000032000000320000003200000032000000320000003200000032000000i
   statsText: {fileID: 0}
   currentScoreText: {fileID: 0}
   totalHarvested: 0
